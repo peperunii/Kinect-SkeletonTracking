@@ -1,0 +1,308 @@
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\C#_Diplomna rabota\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151130_2323h_WorkingCopy\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown - Kopie\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151202_2316h_PressSpaceCountdown - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1311h_2nd-Dec_plus_Start-Stop_Draft\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151206_1930h_Space-Escape_Stop-Start\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151209_2313h_NoCheckRepetition_DRAFT\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_0149h_Commands_NotDone\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands - Kopie\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151212_1940h_Voice-Commands - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151227_1440h_Voice-Commands\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151229_2116h_JointPoint\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_0800h_JointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_1702h_Depth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20151230_2100h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1810h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1853h_NumJointPoints\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_1911h_NumJointPoints - Kopie\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2000h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe.config
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.exe
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\KinectStreams.pdb
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Speech.dll
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csprojResolveAssemblyReference.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\MainWindow.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\App.baml
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\MainWindow.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\App.g.cs
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams_MarkupCompile.cache
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.g.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.Properties.Resources.resources
+C:\Users\Conrad\Desktop\Master_Thesis\20160103_2240h_PlusDepth\KinectStreams\KinectStreams\obj\Debug\KinectStreams.csproj.GenerateResource.Cache

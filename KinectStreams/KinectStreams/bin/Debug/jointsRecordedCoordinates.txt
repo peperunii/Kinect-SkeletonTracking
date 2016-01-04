@@ -1,0 +1,3247 @@
+Frame aquired
+Frame aquired
+Frame aquired
+Frame aquired
+Frame aquired
+Frame aquired
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,7529 y: 719,7564
+HandRight x: 1081,215 y: 695,2548
+
+Frame aquired
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,639 y: 719,5668
+HandRight x: 1083,472 y: 696,4205
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,2704 y: 719,5175
+HandRight x: 1085,693 y: 698,3284
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,1237 y: 718,228
+HandRight x: 1086,478 y: 698,5768
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,3746 y: 717,4705
+HandRight x: 1087,531 y: 699,0546
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 782,2333 y: 715,3654
+HandRight x: 1088,425 y: 698,9951
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,4333 y: 685,17
+HandRight x: 1095,047 y: 687,9141
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 770,6312 y: 631,4485
+HandRight x: 1091,95 y: 634,5953
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,3836 y: 544,5869
+HandRight x: 1105,506 y: 558,8448
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 747,3724 y: 474,2234
+HandRight x: 1104,84 y: 496,9167
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,7603 y: 419,183
+HandRight x: 1100,953 y: 440,3854
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 737,9321 y: 379,0143
+HandRight x: 1093,61 y: 391,4157
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 734,5681 y: 354,5184
+HandRight x: 1087,827 y: 359,2212
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 731,0319 y: 340,1926
+HandRight x: 1085,481 y: 338,4258
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 729,1638 y: 332,9318
+HandRight x: 1086,373 y: 325,713
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,41 y: 329,4598
+HandRight x: 1088,193 y: 318,8987
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 729,6077 y: 327,1451
+HandRight x: 1089,823 y: 313,7184
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 731,8794 y: 325,9044
+HandRight x: 1089,671 y: 312,5431
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 731,5898 y: 326,5089
+HandRight x: 1088,873 y: 305,684
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,0078 y: 325,7539
+HandRight x: 1088,79 y: 306,0015
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 725,8901 y: 323,0305
+HandRight x: 1087,479 y: 305,216
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 723,0933 y: 321,9232
+HandRight x: 1086,04 y: 302,6559
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 720,6476 y: 321,906
+HandRight x: 1085,851 y: 302,4
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 718,8672 y: 321,2661
+HandRight x: 1085,523 y: 302,2299
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,8268 y: 319,4994
+HandRight x: 1085,015 y: 302,2235
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,0831 y: 318,9265
+HandRight x: 1084,704 y: 301,74
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 714,953 y: 319,6601
+HandRight x: 1085,005 y: 301,7195
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,4039 y: 319,6014
+HandRight x: 1085,502 y: 300,1639
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,2078 y: 319,075
+HandRight x: 1085,693 y: 299,7669
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,036 y: 318,9521
+HandRight x: 1085,331 y: 299,6486
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,4857 y: 317,2658
+HandRight x: 1085,127 y: 299,4313
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,2494 y: 316,9171
+HandRight x: 1084,284 y: 299,2137
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,489 y: 316,2716
+HandRight x: 1083,762 y: 299,1331
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,3314 y: 316,4795
+HandRight x: 1083,736 y: 299,2067
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,3875 y: 315,7732
+HandRight x: 1084,159 y: 297,6213
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,6944 y: 313,1306
+HandRight x: 1084,401 y: 297,1349
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 722,4984 y: 309,7402
+HandRight x: 1088,022 y: 297,6862
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,9087 y: 307,3448
+HandRight x: 1094,721 y: 299,0666
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 745,4006 y: 306,6755
+HandRight x: 1095,536 y: 298,6042
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 738,4342 y: 307,3992
+HandRight x: 1087,949 y: 300,1493
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 737,6602 y: 305,691
+HandRight x: 1091,158 y: 300,2056
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 747,8743 y: 304,5018
+HandRight x: 1103,028 y: 302,5802
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 746,8247 y: 305,8877
+HandRight x: 1105,301 y: 303,1286
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 735,3707 y: 306,047
+HandRight x: 1094,554 y: 302,1497
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 741,9197 y: 307,783
+HandRight x: 1097,802 y: 302,037
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 747,4891 y: 307,6169
+HandRight x: 1109,207 y: 303,065
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 735,4979 y: 311,1785
+HandRight x: 1103,747 y: 301,7935
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 730,9266 y: 313,4308
+HandRight x: 1100,926 y: 301,9994
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 741,9103 y: 312,0442
+HandRight x: 1116,13 y: 303,2422
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 736,2068 y: 314,0288
+HandRight x: 1117,215 y: 301,9745
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 721,7391 y: 313,6468
+HandRight x: 1101,203 y: 299,704
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,2025 y: 313,1773
+HandRight x: 1106,383 y: 302,5145
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 746,9995 y: 312,9021
+HandRight x: 1120,116 y: 303,0665
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 726,3629 y: 314,227
+HandRight x: 1102,876 y: 305,3981
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 726,7303 y: 314,3597
+HandRight x: 1088,538 y: 301,1195
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 749,2629 y: 313,0732
+HandRight x: 1106,704 y: 306,9054
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 746,3168 y: 314,279
+HandRight x: 1109,59 y: 305,3239
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,1088 y: 315,6278
+HandRight x: 1087,719 y: 302,2378
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 744,5103 y: 315,1492
+HandRight x: 1092,077 y: 302,65
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 750,2189 y: 313,3478
+HandRight x: 1107,68 y: 301,8068
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 726,8617 y: 312,1495
+HandRight x: 1092,535 y: 302,3118
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 736,345 y: 313,9398
+HandRight x: 1084,917 y: 297,1821
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 758,3677 y: 307,3727
+HandRight x: 1104,031 y: 303,2619
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 744,5234 y: 313,1194
+HandRight x: 1102,564 y: 301,474
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 719,6239 y: 314,0474
+HandRight x: 1077,298 y: 301,0778
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,3746 y: 316,62
+HandRight x: 1081,817 y: 299,4992
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 762,0384 y: 311,7133
+HandRight x: 1110,326 y: 303,4374
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 749,2116 y: 315,5112
+HandRight x: 1110,672 y: 303,1813
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 726,6268 y: 309,7133
+HandRight x: 1090,039 y: 308,2979
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 729,2818 y: 306,2472
+HandRight x: 1089,519 y: 308,8872
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 738,5371 y: 300,699
+HandRight x: 1104,164 y: 320,6194
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 736,7775 y: 300,0004
+HandRight x: 1111,52 y: 321,2804
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 721,3026 y: 313,1129
+HandRight x: 1107,561 y: 314,9601
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,0348 y: 334,7819
+HandRight x: 1106,799 y: 290,8339
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 700,4453 y: 358,8251
+HandRight x: 1111,474 y: 255,3441
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,9554 y: 376,3123
+HandRight x: 1110,932 y: 246,7469
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,9677 y: 375,7568
+HandRight x: 1112,374 y: 242,3121
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,6033 y: 361,0718
+HandRight x: 1108,733 y: 262,7822
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,259 y: 327,4208
+HandRight x: 1103,173 y: 300,3484
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 707,8745 y: 305,5381
+HandRight x: 1100,367 y: 327,442
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,2626 y: 302,1622
+HandRight x: 1103,773 y: 326,5052
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,9288 y: 319,5894
+HandRight x: 1112,194 y: 300,384
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,3516 y: 349,7554
+HandRight x: 1118,849 y: 274,2872
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 702,5103 y: 360,7976
+HandRight x: 1123,635 y: 253,4697
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 700,2183 y: 352,5721
+HandRight x: 1124,712 y: 251,0835
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 698,3594 y: 326,2534
+HandRight x: 1123,408 y: 270,7467
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,9061 y: 301,6211
+HandRight x: 1120,416 y: 302,7766
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 707,8274 y: 293,4543
+HandRight x: 1121,884 y: 319,2245
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,1011 y: 303,6761
+HandRight x: 1124,318 y: 312,6459
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,2009 y: 331,9106
+HandRight x: 1128,194 y: 294,4483
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,5594 y: 351,8838
+HandRight x: 1130,174 y: 277,1401
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 708,3936 y: 354,9688
+HandRight x: 1129,538 y: 274,0681
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,8327 y: 345,7858
+HandRight x: 1129,218 y: 283,02
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,2578 y: 321,5186
+HandRight x: 1126,796 y: 311,4166
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,8109 y: 306,1176
+HandRight x: 1124,677 y: 324,4614
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 719,4536 y: 306,4613
+HandRight x: 1123,878 y: 319,3696
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 717,4932 y: 324,4838
+HandRight x: 1124,868 y: 303,7906
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,67 y: 341,7663
+HandRight x: 1124,681 y: 284,8776
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,378 y: 344,5967
+HandRight x: 1121,522 y: 280,0198
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,0457 y: 335,378
+HandRight x: 1120,974 y: 286,1976
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,6668 y: 317,9182
+HandRight x: 1121,599 y: 304,7301
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,6488 y: 307,1331
+HandRight x: 1122,912 y: 313,4715
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,9875 y: 309,3725
+HandRight x: 1124,538 y: 309,7452
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,9893 y: 320,6916
+HandRight x: 1123,786 y: 302,2689
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,3623 y: 331,0566
+HandRight x: 1121,133 y: 295,0379
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,1635 y: 329,553
+HandRight x: 1117,235 y: 294,666
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,1228 y: 317,6256
+HandRight x: 1117,246 y: 308,9958
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 721,8127 y: 305,7168
+HandRight x: 1121,965 y: 326,8336
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,0999 y: 303,0907
+HandRight x: 1129,289 y: 333,9445
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 727,7048 y: 317,7294
+HandRight x: 1134,214 y: 330,1291
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 718,56 y: 336,2953
+HandRight x: 1132,235 y: 318,1761
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,6578 y: 344,1725
+HandRight x: 1126,805 y: 310,1014
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,498 y: 340,6312
+HandRight x: 1120,331 y: 314,003
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,2074 y: 329,2465
+HandRight x: 1115,205 y: 328,6579
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,7196 y: 312,196
+HandRight x: 1114,117 y: 343,2242
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 722,683 y: 301,9389
+HandRight x: 1118,004 y: 346,4457
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,0716 y: 304,586
+HandRight x: 1123,021 y: 337,7139
+
+Frame aquired
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,5072 y: 335,7421
+HandRight x: 1110,37 y: 309,3004
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 702,8721 y: 339,9856
+HandRight x: 1087,669 y: 308,5901
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 699,3196 y: 332,4819
+HandRight x: 1066,46 y: 324,257
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 704,188 y: 314,7416
+HandRight x: 1060,685 y: 343,7115
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 717,662 y: 295,5625
+HandRight x: 1069,647 y: 365,2635
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 739,9803 y: 286,0206
+HandRight x: 1085,698 y: 373,8397
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 758,4352 y: 291,7552
+HandRight x: 1101,564 y: 364,7441
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 765,3746 y: 305,8358
+HandRight x: 1108,255 y: 344,1713
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 757,1299 y: 335,3173
+HandRight x: 1103,474 y: 324,246
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 738,2393 y: 355,9119
+HandRight x: 1084,601 y: 305,9018
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 719,5576 y: 361,5208
+HandRight x: 1061,858 y: 309,4645
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,0482 y: 351,7762
+HandRight x: 1040,95 y: 320,8012
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 702,7378 y: 332,3214
+HandRight x: 1035,681 y: 338,9618
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 708,7207 y: 309,5724
+HandRight x: 1044,926 y: 359,2483
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 725,3019 y: 295,3751
+HandRight x: 1062,05 y: 378,3984
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 745,303 y: 289,3978
+HandRight x: 1082,769 y: 381,4941
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 755,2543 y: 288,4471
+HandRight x: 1094,068 y: 371,9585
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,4089 y: 294,3297
+HandRight x: 1094,102 y: 361,55
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 752,8435 y: 301,2596
+HandRight x: 1089,171 y: 351,0978
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 748,1926 y: 304,3715
+HandRight x: 1083,304 y: 342,8964
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 745,1387 y: 306,3756
+HandRight x: 1077,863 y: 340,1925
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,9492 y: 308,4277
+HandRight x: 1071,328 y: 335,953
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,7634 y: 313,1851
+HandRight x: 1062,81 y: 330,415
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 735,5527 y: 322,033
+HandRight x: 1051,241 y: 321,6465
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,7634 y: 336,525
+HandRight x: 1034,214 y: 314,084
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 721,1204 y: 351,6962
+HandRight x: 1019,254 y: 309,4014
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 708,8135 y: 362,0143
+HandRight x: 999,1456 y: 284,9955
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 691,9758 y: 364,7789
+HandRight x: 979,2639 y: 270,2274
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 679,4501 y: 373,2322
+HandRight x: 958,4285 y: 268,4752
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 666,4915 y: 383,9298
+HandRight x: 937,5031 y: 273,7017
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 652,4083 y: 390,1876
+HandRight x: 919,2925 y: 276,0609
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 637,4537 y: 393,2021
+HandRight x: 898,3411 y: 269,6666
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 624,4979 y: 398,5286
+HandRight x: 882,6265 y: 269,5981
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 611,3566 y: 404,5875
+HandRight x: 867,1721 y: 277,1036
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 600,798 y: 404,4612
+HandRight x: 846,1992 y: 275,6348
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 590,0092 y: 393,9446
+HandRight x: 827,5712 y: 261,0055
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 584,9315 y: 388,1064
+HandRight x: 835,3415 y: 283,5735
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 581,1096 y: 384,6299
+HandRight x: 831,2852 y: 287,6147
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 577,9778 y: 379,3515
+HandRight x: 829,646 y: 286,7386
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 577,3594 y: 372,6127
+HandRight x: 832,7975 y: 284,5619
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 577,9501 y: 365,8552
+HandRight x: 837,855 y: 281,5722
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 577,1954 y: 358,595
+HandRight x: 844,9277 y: 282,1365
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 575,9617 y: 346,7105
+HandRight x: 855,5816 y: 285,1684
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 581,6346 y: 330,6998
+HandRight x: 865,5146 y: 283,7444
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 587,8538 y: 312,3083
+HandRight x: 883,6934 y: 296,7204
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 597,6337 y: 297,0004
+HandRight x: 904,7546 y: 299,7606
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 612,0391 y: 284,2472
+HandRight x: 928,801 y: 314,6475
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 629,159 y: 269,9453
+HandRight x: 944,0997 y: 319,7951
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 644,6666 y: 254,3096
+HandRight x: 965,5309 y: 326,4173
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 659,6053 y: 243,7374
+HandRight x: 982,1998 y: 345,4441
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 678,2347 y: 240,4338
+HandRight x: 997,115 y: 357,2079
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 697,5245 y: 234,8273
+HandRight x: 1007,559 y: 360,1096
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,9007 y: 225,6286
+HandRight x: 1021,895 y: 364,4119
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 729,7989 y: 219,3352
+HandRight x: 1040,01 y: 371,823
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 744,6172 y: 213,8008
+HandRight x: 1057,139 y: 375,8246
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,5038 y: 213,3537
+HandRight x: 1072,359 y: 373,1609
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 764,6765 y: 211,4177
+HandRight x: 1081,085 y: 367,276
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 769,6263 y: 215,5371
+HandRight x: 1095,312 y: 347,7153
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 770,4479 y: 218,5349
+HandRight x: 1110,96 y: 334,7411
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 769,6161 y: 222,7895
+HandRight x: 1127,185 y: 318,9198
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 768,3145 y: 233,1303
+HandRight x: 1134,234 y: 304,758
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 769,8709 y: 250,8173
+HandRight x: 1132,12 y: 288,2882
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 761,9778 y: 264,1823
+HandRight x: 1132,497 y: 283,0119
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 747,1878 y: 280,4268
+HandRight x: 1130,773 y: 243,7338
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 732,7385 y: 292,39
+HandRight x: 1128,147 y: 239,4258
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 724,758 y: 301,0279
+HandRight x: 1122,179 y: 234,4693
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 719,8755 y: 308,8665
+HandRight x: 1110,595 y: 231,1877
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,5668 y: 321,7848
+HandRight x: 1098,027 y: 231,3264
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,6598 y: 342,3079
+HandRight x: 1085,902 y: 235,4265
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 705,944 y: 359,5222
+HandRight x: 1070,59 y: 235,0267
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,7638 y: 365,5688
+HandRight x: 1051,586 y: 229,4557
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 695,006 y: 367,9581
+HandRight x: 1036,497 y: 214,852
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 679,7458 y: 377,2197
+HandRight x: 1024,716 y: 217,9681
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 660,9413 y: 387,838
+HandRight x: 1015,692 y: 227,7749
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 657,4404 y: 380,84
+HandRight x: 998,9287 y: 232,9654
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 659,1869 y: 358,5845
+HandRight x: 980,5166 y: 255,0736
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 649,6436 y: 337,965
+HandRight x: 975,904 y: 257,2357
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 631,4998 y: 329,4964
+HandRight x: 985,5775 y: 295,3415
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 621,4734 y: 314,2252
+HandRight x: 990,3713 y: 311,3299
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 635,6509 y: 288,151
+HandRight x: 981,5106 y: 324,49
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 653,0621 y: 265,5117
+HandRight x: 975,3704 y: 332,9967
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 671,399 y: 255,8297
+HandRight x: 975,3402 y: 357,177
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 700,4789 y: 246,1086
+HandRight x: 971,943 y: 369,3846
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 731,4153 y: 218,3159
+HandRight x: 956,0814 y: 368,5401
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 753,0411 y: 200,7294
+HandRight x: 945,1725 y: 364,5067
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 765,9333 y: 227,258
+HandRight x: 962,8554 y: 341,3279
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 775,5545 y: 247,7843
+HandRight x: 945,6751 y: 391,7602
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 771,5701 y: 258,1484
+HandRight x: 940,7159 y: 387,058
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 763,2636 y: 226,6401
+HandRight x: 934,8987 y: 370,7473
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,4435 y: 219,4607
+HandRight x: 828,0724 y: 419,7296
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,5974 y: 245,7133
+HandRight x: 944,0318 y: 390,1769
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 677,6865 y: 271,8451
+HandRight x: 954,3223 y: 398,7883
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 651,8528 y: 287,3212
+HandRight x: 954,6842 y: 383,7687
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 628,9844 y: 294,3575
+HandRight x: 962,2509 y: 365,0453
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 605,2551 y: 302,5322
+HandRight x: 979,4189 y: 356,1437
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 590,4423 y: 310,589
+HandRight x: 1002,943 y: 356,3009
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 589,4359 y: 313,2537
+HandRight x: 1010,474 y: 347,7803
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 608,2153 y: 316,4084
+HandRight x: 1008,302 y: 328,261
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 622,4644 y: 329,0523
+HandRight x: 1011,345 y: 314,7437
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 632,158 y: 362,4587
+HandRight x: 1019,977 y: 313,6353
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 632,7645 y: 397,5059
+HandRight x: 1020,469 y: 322,0802
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 658,5331 y: 410,0117
+HandRight x: 1007,974 y: 313,7499
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 685,4886 y: 415,6149
+HandRight x: 1001,048 y: 305,1653
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 707,3943 y: 437,0986
+HandRight x: 1004,79 y: 299,0374
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,7857 y: 470,9085
+HandRight x: 989,1707 y: 259,0125
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,9131 y: 479,8874
+HandRight x: 984,0099 y: 259,4112
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 741,6336 y: 472,4919
+HandRight x: 962,0522 y: 252,0345
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 753,208 y: 471,8376
+HandRight x: 965,5008 y: 276,6315
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 757,0062 y: 491,6936
+HandRight x: 973,9952 y: 296,386
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 754,9083 y: 505,1352
+HandRight x: 959,457 y: 275,786
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 755,8268 y: 484,993
+HandRight x: 996,0186 y: 320,6817
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 751,3027 y: 454,1864
+HandRight x: 976,7054 y: 302,9398
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,3461 y: 446,0371
+HandRight x: 984,5245 y: 326,4123
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 719,6896 y: 457,4777
+HandRight x: 992,4671 y: 339,1261
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,1743 y: 441,996
+HandRight x: 988,6287 y: 339,8488
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 694,5861 y: 411,8994
+HandRight x: 979,2484 y: 331,8554
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 687,9366 y: 403,8288
+HandRight x: 976,2037 y: 331,7905
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 674,9323 y: 405,9086
+HandRight x: 983,0493 y: 342,0854
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 670,5206 y: 395,7851
+HandRight x: 972,3256 y: 344,8282
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 680,7583 y: 363,2075
+HandRight x: 948,2969 y: 342,4283
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 690,497 y: 347,6399
+HandRight x: 938,9728 y: 343,5695
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 687,2904 y: 348,1251
+HandRight x: 940,5602 y: 354,514
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 675,4725 y: 352,6504
+HandRight x: 947,1636 y: 368,1234
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 685,0484 y: 344,4494
+HandRight x: 938,183 y: 367,1681
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,4484 y: 328,8316
+HandRight x: 929,2891 y: 359,5656
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,5546 y: 321,4548
+HandRight x: 923,9303 y: 358,7566
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,7891 y: 325,8888
+HandRight x: 928,9088 y: 363,8021
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 694,5278 y: 342,0031
+HandRight x: 931,7767 y: 371,2845
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 686,1571 y: 371,7964
+HandRight x: 931,2979 y: 358,7141
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 681,5134 y: 417,7668
+HandRight x: 934,8148 y: 345,6439
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 689,4472 y: 474,2719
+HandRight x: 940,22 y: 345,8221
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,5352 y: 520,9409
+HandRight x: 946,658 y: 345,8532
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 726,3851 y: 559,6633
+HandRight x: 952,3206 y: 337,0609
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 741,7246 y: 552,5307
+HandRight x: 953,1353 y: 313,1373
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 739,462 y: 556,0439
+HandRight x: 953,8236 y: 306,8194
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,3619 y: 552,817
+HandRight x: 965,0659 y: 326,9059
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 734,9469 y: 529,7458
+HandRight x: 974,1457 y: 335,3657
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 714,4968 y: 494,4967
+HandRight x: 1012,238 y: 352,2278
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 709,0833 y: 451,7638
+HandRight x: 885,4509 y: 358,2124
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 708,8054 y: 421,5592
+HandRight x: 870,0222 y: 374,6143
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,5419 y: 396,1312
+HandRight x: 869,0372 y: 398,7905
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 725,8749 y: 367,3558
+HandRight x: 860,2796 y: 430,9796
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,4929 y: 344,1109
+HandRight x: 862,496 y: 469,4531
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 747,62 y: 325,7472
+HandRight x: 864,7456 y: 506,8303
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 746,667 y: 302,0171
+HandRight x: 874,9631 y: 525,5729
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 745,5248 y: 282,4099
+HandRight x: 899,8043 y: 510,2065
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,3302 y: 263,488
+HandRight x: 933,7229 y: 474,6107
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 773,1829 y: 261,899
+HandRight x: 976,3834 y: 470,3239
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 780,6597 y: 269,4213
+HandRight x: 997,1763 y: 428,039
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 776,5504 y: 281,1735
+HandRight x: 1023,974 y: 381,1888
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 763,8041 y: 307,4348
+HandRight x: 1041,692 y: 363,0947
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 748,9293 y: 351,5467
+HandRight x: 1043,329 y: 338,4387
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 728,5791 y: 407,5846
+HandRight x: 1023,568 y: 325,0043
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 697,3194 y: 466,1794
+HandRight x: 999,0809 y: 319,7069
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 673,1061 y: 505,0467
+HandRight x: 978,9238 y: 328,1007
+
+Frame aquired
+Frame aquired
+Tracked body = Yes
+HandLeft x: 640,074 y: 524,6429
+HandRight x: 935,3646 y: 358,9539
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 641,7444 y: 495,6499
+HandRight x: 923,9739 y: 382,2715
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 645,4664 y: 454,1404
+HandRight x: 931,3572 y: 412,9734
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 648,7333 y: 423,4708
+HandRight x: 940,5885 y: 438,3526
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 650,7373 y: 401,9092
+HandRight x: 950,5352 y: 432,5366
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 667,6656 y: 392,1014
+HandRight x: 963,6897 y: 422,2186
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 695,1894 y: 403,3004
+HandRight x: 976,0344 y: 402,4754
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 716,3256 y: 429,9273
+HandRight x: 985,7213 y: 398,4886
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 733,4441 y: 468,8085
+HandRight x: 990,0299 y: 400,1078
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 751,2728 y: 484,5551
+HandRight x: 988,3048 y: 387,1649
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 773,4781 y: 483,6039
+HandRight x: 983,2101 y: 364,7487
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 792,429 y: 492,264
+HandRight x: 981,4271 y: 359,6877
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 802,3521 y: 516,3041
+HandRight x: 976,404 y: 370,3144
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 800,3807 y: 524,0797
+HandRight x: 968,5923 y: 378,2984
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 794,3466 y: 505,7837
+HandRight x: 951,1819 y: 365,6826
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 787,3434 y: 496,3589
+HandRight x: 940,7962 y: 361,7019
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 776,4938 y: 508,0663
+HandRight x: 916,209 y: 366,0924
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 766,454 y: 521,8091
+HandRight x: 901,3328 y: 375,9784
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 765,4406 y: 517,719
+HandRight x: 904,0681 y: 369,2089
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 767,225 y: 513,5363
+HandRight x: 901,5808 y: 359,1512
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 766,5414 y: 522,7818
+HandRight x: 904,2435 y: 364,2676
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 763,069 y: 538,4147
+HandRight x: 892,2847 y: 377,7439
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 763,5016 y: 524,8225
+HandRight x: 907,0505 y: 378,7036
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 764,9241 y: 497,742
+HandRight x: 914,7498 y: 576,0671
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 763,1019 y: 483,7862
+HandRight x: 908,2723 y: 367,4251
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 737,8925 y: 488,7094
+HandRight x: 915,9084 y: 382,1511
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 735,0516 y: 508,6415
+HandRight x: 922,7704 y: 388,337
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 732,391 y: 490,6563
+HandRight x: 928,3293 y: 376,364
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 734,2167 y: 466,1423
+HandRight x: 934,5807 y: 368,8038
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 737,4248 y: 466,1482
+HandRight x: 930,4564 y: 377,802
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 722,487 y: 475,5465
+HandRight x: 931,6545 y: 403,0709
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 720,5665 y: 464,0495
+HandRight x: 927,907 y: 412,8752
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 727,5627 y: 429,317
+HandRight x: 919,5495 y: 407,6247
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 734,8082 y: 408,4252
+HandRight x: 912,3406 y: 409,88
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 741,5687 y: 414,344
+HandRight x: 904,5513 y: 417,9009
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 755,7775 y: 423,9104
+HandRight x: 918,812 y: 438,4656
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 776,7369 y: 413,6145
+HandRight x: 923,6829 y: 431,0888
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 797,4182 y: 408,587
+HandRight x: 931,4373 y: 427,1136
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 804,6363 y: 423,9414
+HandRight x: 944,6971 y: 441,0175
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 815,9722 y: 440,4715
+HandRight x: 956,5192 y: 460,731
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 821,0978 y: 437,9223
+HandRight x: 961,1736 y: 464,2082
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 818,3694 y: 419,4984
+HandRight x: 964,8177 y: 460,3219
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 823,6723 y: 406,5182
+HandRight x: 926,968 y: 540,6273
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 841,1268 y: 405,0903
+HandRight x: 884,9182 y: 572,6625
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 849,5565 y: 411,5495
+HandRight x: 895,9355 y: 580,3441
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 856,8409 y: 400,9552
+HandRight x: 901,1164 y: 576,9607
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 866,3044 y: 400,0328
+HandRight x: 910,9188 y: 575,6191
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 881,3438 y: 411,2531
+HandRight x: 932,9932 y: 586,5413
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 893,3836 y: 426,2216
+HandRight x: 952,5909 y: 589,817
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 903,7997 y: 419,3351
+HandRight x: 1039,78 y: 460,8495
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 915,3688 y: 414,5862
+HandRight x: 1045,979 y: 437,4424
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 918,8022 y: 423,6258
+HandRight x: 1054,988 y: 428,0834
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 932,9139 y: 437,3254
+HandRight x: 1068,154 y: 433,6779
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 935,3615 y: 435,3417
+HandRight x: 1075,823 y: 431,013
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 939,0136 y: 424,3
+HandRight x: 1074,384 y: 418,358
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 942,954 y: 421,7039
+HandRight x: 1073,669 y: 415,235
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 951,2836 y: 430,8599
+HandRight x: 1081,566 y: 429,0516
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 960,0051 y: 436,328
+HandRight x: 985,9134 y: 419,0084
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 982,3085 y: 418,4834
+HandRight x: 1092,262 y: 432,1792
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 986,3131 y: 416,0434
+HandRight x: 1093,599 y: 426,1732
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1010,114 y: 422,6967
+HandRight x: 1021,929 y: 412,8658
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1031,198 y: 428,5287
+HandRight x: 1105,194 y: 448,7407
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1037,127 y: 422,2553
+HandRight x: 1102,18 y: 449,7019
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1043,302 y: 410,4069
+HandRight x: 1057,281 y: 400,0497
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1064,109 y: 398,8995
+HandRight x: 1042,873 y: 411,9815
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1071,172 y: 414,4609
+HandRight x: 1074,143 y: 409,8786
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1077,461 y: 423,7179
+HandRight x: 1074,562 y: 421,1757
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1079,869 y: 410,75
+HandRight x: 1036,321 y: 410,6353
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1087,071 y: 398,2145
+HandRight x: 1018,876 y: 385,9325
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1089,047 y: 407,9253
+HandRight x: 1017,609 y: 375,4
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1099,459 y: 428,7072
+HandRight x: 1021,873 y: 373,3885
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1101,226 y: 431,5279
+HandRight x: 1037,768 y: 377,6713
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1099,315 y: 424,5477
+HandRight x: 1100,789 y: 420,0533
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1100,376 y: 430,1129
+HandRight x: 1098,495 y: 424,1022
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1102,776 y: 439,4314
+HandRight x: 1100,65 y: 435,8368
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1091,624 y: 439,2229
+HandRight x: 1087,316 y: 447,87
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1076,82 y: 437,2601
+HandRight x: 1065,112 y: 453,4737
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1067,851 y: 459,9527
+HandRight x: 1020,738 y: 416,8359
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1093,045 y: 461,9869
+HandRight x: 1030,327 y: 450,3552
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1092,331 y: 467,2576
+HandRight x: 1031,558 y: 457,0143
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1092,024 y: 468,2835
+HandRight x: 1030,876 y: 454,2346
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1131,34 y: 501,3934
+HandRight x: 1039,05 y: 453,5537
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1141,859 y: 490,8611
+HandRight x: 957,2563 y: 537,0612
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1147,277 y: 489,3815
+HandRight x: 1038,786 y: 512,5869
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 892,9713 y: 501,185
+HandRight x: 1004,672 y: 484,6434
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 898,6434 y: 494,4781
+HandRight x: 1020,588 y: 484,3316
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 908,235 y: 490,6684
+HandRight x: 1050,341 y: 528,1987
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 921,0814 y: 492,4539
+HandRight x: 1059,93 y: 556,5805
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 934,4218 y: 490,3005
+HandRight x: 1034,244 y: 564,0582
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 946,0111 y: 478,967
+HandRight x: 1030,74 y: 581,4187
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 956,3479 y: 472,0319
+HandRight x: 1024,515 y: 572,081
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 964,6382 y: 473,8221
+HandRight x: 1024,023 y: 576,0714
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 973,1438 y: 477,0007
+HandRight x: 1054,886 y: 595,4417
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 982,0742 y: 472,3451
+HandRight x: 1072,01 y: 593,8087
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 985,773 y: 468,5171
+HandRight x: 1089,396 y: 616,5472
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 985,9041 y: 467,7504
+HandRight x: 1119,65 y: 626,4805
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 984,0778 y: 468,2161
+HandRight x: 1119,823 y: 598,5865
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 978,8214 y: 463,8017
+HandRight x: 1101,029 y: 612,9736
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 975,8564 y: 455,3499
+HandRight x: 1075,259 y: 633,7911
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1025,709 y: 451,4973
+HandRight x: 1067,19 y: 632,8252
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1021,871 y: 445,3348
+HandRight x: 743,8343 y: 465,5043
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1017,569 y: 440,8563
+HandRight x: 737,4717 y: 438,2538
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1013,916 y: 471,8934
+HandRight x: 740,5208 y: 409,6022
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1005,436 y: 457,811
+HandRight x: 737,754 y: 400,4131
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 778,6395 y: 463,7145
+HandRight x: 744,854 y: 405,3502
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 771,8262 y: 474,3287
+HandRight x: 754,3467 y: 395,7741
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 760,8231 y: 468,1593
+HandRight x: 770,0878 y: 386,7169
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 746,8003 y: 468,2808
+HandRight x: 792,8539 y: 393,3183
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 725,5508 y: 476,2554
+HandRight x: 799,8726 y: 404,6396
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 718,3237 y: 474,3118
+HandRight x: 821,6057 y: 406,251
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 705,7781 y: 455,312
+HandRight x: 806,8178 y: 396,0494
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,909 y: 445,6779
+HandRight x: 837,3967 y: 410,2949
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 706,7271 y: 450,8771
+HandRight x: 857,2014 y: 434,8965
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,6193 y: 460,0527
+HandRight x: 863,8467 y: 437,0876
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 725,0395 y: 455,1412
+HandRight x: 874,2507 y: 427,0832
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,4592 y: 448,4526
+HandRight x: 892,1651 y: 420,9084
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 764,4507 y: 449,0082
+HandRight x: 914,2192 y: 423,6498
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 919,8499 y: 432,9122
+HandRight x: 936,3092 y: 428,7044
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 817,5952 y: 466,0867
+HandRight x: 910,3426 y: 438,2479
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 836,7783 y: 448,9286
+HandRight x: 955,7067 y: 416,5388
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 856,9105 y: 439,5426
+HandRight x: 972,1852 y: 437,9306
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 868,7293 y: 441,6999
+HandRight x: 995,3892 y: 442,3264
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 883,5614 y: 436,078
+HandRight x: 1005,486 y: 428,0062
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 897,1345 y: 420,2603
+HandRight x: 1012,594 y: 417,6234
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 911,9 y: 423,6188
+HandRight x: 1019,475 y: 412,7913
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 921,8417 y: 432,291
+HandRight x: 1031,27 y: 423,5038
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 923,0672 y: 441,5958
+HandRight x: 1043,57 y: 432,0436
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 933,4417 y: 450,9011
+HandRight x: 1048,818 y: 421,3399
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 938,4794 y: 448,0291
+HandRight x: 1051,593 y: 411,124
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 940,3036 y: 445,075
+HandRight x: 1058,078 y: 415,4706
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 942,3815 y: 452,1186
+HandRight x: 1069,66 y: 429,4825
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 944,0331 y: 445,3834
+HandRight x: 1072,993 y: 425,1202
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 947,0681 y: 429,3639
+HandRight x: 1073,74 y: 415,6472
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 949,2291 y: 421,7536
+HandRight x: 1076,285 y: 418,539
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 953,9382 y: 426,8338
+HandRight x: 1082,753 y: 433,6173
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 956,4016 y: 426,6219
+HandRight x: 1084,664 y: 436,2811
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 957,5799 y: 417,7695
+HandRight x: 1078,406 y: 437,2188
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 954,374 y: 409,2848
+HandRight x: 965,8417 y: 394,6984
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 957,5919 y: 423,4613
+HandRight x: 969,8223 y: 405,2451
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 961,0529 y: 445,363
+HandRight x: 1097,557 y: 456,0502
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 956,5215 y: 433,8451
+HandRight x: 1093,205 y: 444,0682
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 946,8547 y: 406,6415
+HandRight x: 1084,737 y: 429,2788
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 935,9821 y: 400,8976
+HandRight x: 1083,178 y: 421,8286
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 924,6021 y: 410,6102
+HandRight x: 1081,331 y: 431,0287
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 908,1926 y: 413,7314
+HandRight x: 1073,162 y: 426,9312
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 887,4333 y: 404,6284
+HandRight x: 1050,657 y: 410,9957
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 866,3666 y: 403,585
+HandRight x: 874,9683 y: 401,6003
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 847,6605 y: 416,7905
+HandRight x: 850,4766 y: 413,2831
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 827,4821 y: 435,3602
+HandRight x: 981,0873 y: 408,8662
+
+Frame aquired
+Frame aquired
+Tracked body = Yes
+HandLeft x: 774,766 y: 437,8014
+HandRight x: 934,9149 y: 398,8505
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 750,7867 y: 436,3407
+HandRight x: 908,3878 y: 397,5504
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 720,868 y: 445,3826
+HandRight x: 891,5938 y: 409,9899
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 692,2214 y: 455,419
+HandRight x: 879,4627 y: 422,7107
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 670,813 y: 436,4742
+HandRight x: 859,1741 y: 412,7758
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 655,9476 y: 401,6978
+HandRight x: 843,9153 y: 399,1849
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 643,3539 y: 377,2322
+HandRight x: 839,0287 y: 405,5836
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 632,8364 y: 371,3054
+HandRight x: 840,8406 y: 421,9785
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 627,765 y: 375,3074
+HandRight x: 844,8345 y: 438,5161
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 631,6077 y: 369,5614
+HandRight x: 837,7833 y: 416,4525
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 644,7939 y: 358,2606
+HandRight x: 836,1329 y: 390,5275
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 663,1873 y: 358,6501
+HandRight x: 841,3603 y: 380,1787
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 682,6327 y: 380,9731
+HandRight x: 856,886 y: 399,8756
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,8005 y: 416,9937
+HandRight x: 866,4771 y: 437,4524
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 710,4872 y: 417,9304
+HandRight x: 858,1478 y: 427,9067
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 715,6053 y: 400,2524
+HandRight x: 845,7365 y: 409,7398
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 713,3987 y: 391,4526
+HandRight x: 841,0841 y: 416,1331
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 711,9556 y: 404,8914
+HandRight x: 850,5207 y: 455,5423
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 712,6055 y: 420,9915
+HandRight x: 858,4442 y: 493,5938
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 723,4408 y: 408,5157
+HandRight x: 863,0485 y: 474,7619
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 740,8061 y: 385,0208
+HandRight x: 871,0272 y: 448,9193
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,782 y: 382,9182
+HandRight x: 856,2274 y: 433,2371
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 777,7608 y: 404,9504
+HandRight x: 895,9321 y: 472,5721
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 800,6192 y: 431,6704
+HandRight x: 871,9126 y: 451,0104
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 823,0235 y: 443,7945
+HandRight x: 829,4626 y: 436,0333
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 856,5196 y: 438,0863
+HandRight x: 855,3024 y: 431,7979
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 888,7575 y: 441,0751
+HandRight x: 887,3588 y: 434,5521
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 970,0464 y: 451,2055
+HandRight x: 912,1183 y: 454,5411
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 955,9553 y: 471,7017
+HandRight x: 950,3582 y: 470,524
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 985,0718 y: 453,0304
+HandRight x: 976,4294 y: 456,6763
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1004,788 y: 430,7443
+HandRight x: 990,1932 y: 435,9244
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1017,377 y: 437,2756
+HandRight x: 1158,855 y: 454,4371
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1024,953 y: 444,7735
+HandRight x: 1178,715 y: 464,8593
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1028,657 y: 447,4662
+HandRight x: 1190,312 y: 472,3672
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1029,033 y: 435,648
+HandRight x: 1183,538 y: 444,3022
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1029,412 y: 422,857
+HandRight x: 1168,279 y: 420,4773
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1031,837 y: 423,3143
+HandRight x: 1155,6 y: 420,5905
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1040,418 y: 444,1885
+HandRight x: 1042,709 y: 443,1908
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1042,849 y: 488,891
+HandRight x: 1049,643 y: 500,7233
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1048,314 y: 488,7909
+HandRight x: 1150,821 y: 548,103
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1029,258 y: 462,8755
+HandRight x: 1057,645 y: 468,2889
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1033,295 y: 447,2602
+HandRight x: 1037,073 y: 456,9735
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1024,281 y: 447,8084
+HandRight x: 1048,958 y: 468,4937
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 987,2242 y: 462,63
+HandRight x: 1124,117 y: 515,3212
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 962,7213 y: 428,6884
+HandRight x: 1132,683 y: 510,2874
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 921,7465 y: 406,674
+HandRight x: 1107,702 y: 491,1781
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 872,4218 y: 380,002
+HandRight x: 1080,337 y: 480,4084
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 843,4915 y: 365,455
+HandRight x: 1056,058 y: 490,5323
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 812,9382 y: 371,9833
+HandRight x: 1045,047 y: 498,7388
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 792,7412 y: 389,343
+HandRight x: 1018,472 y: 500,1355
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 756,3792 y: 377,7648
+HandRight x: 973,1138 y: 482,9854
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 742,7682 y: 373,9462
+HandRight x: 959,1336 y: 464,6383
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 720,8959 y: 380,572
+HandRight x: 955,7214 y: 457,7291
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 707,5643 y: 394,9312
+HandRight x: 956,6989 y: 441,1927
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 720,1205 y: 389,8823
+HandRight x: 958,9483 y: 401,4969
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 693,8255 y: 431,6812
+HandRight x: 963,4901 y: 369,731
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 701,9177 y: 440,895
+HandRight x: 961,0322 y: 350,0669
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 696,6664 y: 450,9422
+HandRight x: 954,9854 y: 343,0515
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 690,8882 y: 443,9315
+HandRight x: 943,6567 y: 342,9838
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 684,2371 y: 405,9241
+HandRight x: 925,6912 y: 359,9175
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 672,2601 y: 368,291
+HandRight x: 903,1916 y: 377,5979
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 665,8953 y: 347,7072
+HandRight x: 884,7054 y: 391,8215
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 656,889 y: 353,6648
+HandRight x: 880,3372 y: 396,5673
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 658,8251 y: 377,0037
+HandRight x: 872,2662 y: 373,6469
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 665,9637 y: 400,1029
+HandRight x: 872,9591 y: 350,482
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 688,5811 y: 427,6979
+HandRight x: 878,5503 y: 341,1284
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 694,0675 y: 450,9404
+HandRight x: 864,6855 y: 321,4527
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 663,8861 y: 440,1259
+HandRight x: 858,4514 y: 320,5807
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 724,3348 y: 426,6725
+HandRight x: 851,0513 y: 321,9637
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 538,3146 y: 313,1012
+HandRight x: 850,9811 y: 339,6185
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 585,0209 y: 321,8537
+HandRight x: 852,1778 y: 363,0799
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 600,0833 y: 324,399
+HandRight x: 816,4717 y: 346,0824
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 592,1517 y: 330,9691
+HandRight x: 814,3595 y: 348,8076
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 762,7922 y: 424,9496
+HandRight x: 850,4434 y: 351,7512
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 628,3718 y: 380,2332
+HandRight x: 845,1125 y: 345,9743
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 625,3225 y: 394,6387
+HandRight x: 837,7787 y: 349,1397
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 834,508 y: 372,2776
+HandRight x: 834,2803 y: 359,9155
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 831,4297 y: 366,5218
+HandRight x: 835,5751 y: 370,5758
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 835,7195 y: 355,0574
+HandRight x: 841,6044 y: 389,0224
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 812,2041 y: 273,6215
+HandRight x: 850,0041 y: 414,7883
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 903,0482 y: 442,3098
+HandRight x: 853,8472 y: 423,4787
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 910,0626 y: 435,9838
+HandRight x: 857,0736 y: 417,9593
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 950,2612 y: 434,6302
+HandRight x: 858,7133 y: 409,5554
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 949,9875 y: 433,3179
+HandRight x: 859,3021 y: 408,5195
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 956,2465 y: 435,249
+HandRight x: 858,2363 y: 408,9672
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 965,9901 y: 437,4939
+HandRight x: 861,6861 y: 406,2413
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 976,1488 y: 437,0414
+HandRight x: 869,5091 y: 400,2026
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 980,2504 y: 435,7623
+HandRight x: 874,9736 y: 399,6039
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 980,5835 y: 430,6097
+HandRight x: 874,9332 y: 400,1051
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 979,2663 y: 424,156
+HandRight x: 874,1507 y: 397,8685
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 980,4234 y: 420,8134
+HandRight x: 873,548 y: 395,7839
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 981,4944 y: 422,3749
+HandRight x: 857,3393 y: 409,7394
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 982,2766 y: 425,8
+HandRight x: 856,1326 y: 409,4312
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 982,3461 y: 428,1851
+HandRight x: 855,6075 y: 408,1639
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 981,697 y: 427,8766
+HandRight x: 854,8035 y: 409,3147
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 980,5553 y: 429,7773
+HandRight x: 854,8176 y: 405,9799
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 980,3924 y: 432,745
+HandRight x: 873,0197 y: 392,9638
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 978,6434 y: 434,049
+HandRight x: 870,1824 y: 389,7844
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 977,3278 y: 433,6206
+HandRight x: 870,6805 y: 387,4253
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 976,3647 y: 435,6676
+HandRight x: 870,6227 y: 386,254
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 974,3339 y: 436,6816
+HandRight x: 871,4197 y: 384,2658
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 973,0464 y: 437,1697
+HandRight x: 871,7603 y: 381,1943
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 971,7717 y: 438,5302
+HandRight x: 870,5472 y: 380,1353
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 970,6412 y: 439,3387
+HandRight x: 870,0792 y: 379,6219
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 970,7935 y: 438,1395
+HandRight x: 869,8483 y: 378,6935
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 969,7147 y: 438,511
+HandRight x: 869,0273 y: 379,1102
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 969,0977 y: 438,6952
+HandRight x: 869,2115 y: 379,4689
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 968,0768 y: 438,0104
+HandRight x: 868,6451 y: 379,3061
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 967,2242 y: 438,2047
+HandRight x: 868,8819 y: 378,6071
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 965,9013 y: 437,9958
+HandRight x: 868,7709 y: 378,9521
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 963,667 y: 439,0539
+HandRight x: 868,0679 y: 378,3848
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1007,913 y: 354,4746
+HandRight x: 866,8939 y: 378,5018
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1007,412 y: 354,2856
+HandRight x: 865,6616 y: 377,7816
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1003,203 y: 353,7714
+HandRight x: 861,1139 y: 378,5403
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 984,0449 y: 457,593
+HandRight x: 858,9012 y: 376,1658
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 983,6932 y: 457,695
+HandRight x: 859,756 y: 386,993
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 984,03 y: 457,4665
+HandRight x: 860,4929 y: 380,8958
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 996,5894 y: 455,9284
+HandRight x: 862,8607 y: 371,0065
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 995,5238 y: 454,4037
+HandRight x: 864,7892 y: 364,6174
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 988,4245 y: 451,9418
+HandRight x: 811,7993 y: 397,3669
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 969,2448 y: 448,6614
+HandRight x: 805,9182 y: 402,601
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 963,5585 y: 443,5839
+HandRight x: 798,6728 y: 403,8634
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 960,1333 y: 439,5931
+HandRight x: 934,34 y: 262,6227
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 959,0064 y: 436,9935
+HandRight x: 938,3607 y: 263,5284
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 958,7059 y: 437,524
+HandRight x: 940,3922 y: 265,0829
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 961,0861 y: 439,5235
+HandRight x: 943,9372 y: 268,3949
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 962,6865 y: 441,1139
+HandRight x: 946,3347 y: 270,2445
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 963,6285 y: 442,2257
+HandRight x: 947,7784 y: 269,963
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 963,868 y: 442,5701
+HandRight x: 946,0555 y: 269,0949
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 963,0532 y: 442,7749
+HandRight x: 943,0872 y: 267,4356
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 958,7427 y: 442,5176
+HandRight x: 939,2509 y: 265,1149
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 938,4982 y: 466,4792
+HandRight x: 933,6366 y: 261,8327
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 936,4717 y: 466,5145
+HandRight x: 927,6382 y: 257,5887
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 930,7659 y: 467,3537
+HandRight x: 921,1575 y: 255,1643
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 924,3428 y: 469,9355
+HandRight x: 915,2134 y: 256,4376
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 915,9199 y: 475,9805
+HandRight x: 912,0898 y: 261,2686
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 908,5261 y: 477,4915
+HandRight x: 911,2545 y: 263,5835
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 898,9919 y: 471,1006
+HandRight x: 907,9977 y: 262,298
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 891,1486 y: 461,4374
+HandRight x: 901,1564 y: 263,1821
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 887,2103 y: 459,2672
+HandRight x: 887,6163 y: 269,3945
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 884,2327 y: 459,9428
+HandRight x: 868,9462 y: 274,9438
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 883,1478 y: 458,7676
+HandRight x: 1116,092 y: 477,8749
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 877,6631 y: 450,9255
+HandRight x: 1118,024 y: 481,9981
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 879,6641 y: 452,8922
+HandRight x: 1132,644 y: 479,2254
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 882,9423 y: 462,0031
+HandRight x: 1095,183 y: 597,7624
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 886,1605 y: 469,028
+HandRight x: 1094,508 y: 598,0706
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 889,6673 y: 468,5124
+HandRight x: 1090,473 y: 590,0402
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 900,6236 y: 457,8205
+HandRight x: 1089,186 y: 588,2505
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 889,9987 y: 471,5799
+HandRight x: 1276,707 y: 513,6254
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 890,5013 y: 424,9581
+HandRight x: 1251,523 y: 478,3288
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 885,3542 y: 417,8708
+HandRight x: 1202,681 y: 284,4424
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 923,011 y: 432,3568
+HandRight x: 1087,212 y: 285,7302
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 911,8204 y: 429,7904
+HandRight x: 1082,736 y: 287,0362
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 902,3572 y: 431,9242
+HandRight x: 1074,735 y: 286,5128
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 900,9177 y: 435,3185
+HandRight x: 1070,031 y: 279,2689
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 901,0778 y: 436,5457
+HandRight x: 1059,378 y: 269,2714
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 900,4656 y: 437,4944
+HandRight x: 1012,617 y: 288,0412
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 911,5971 y: 517,2853
+HandRight x: 1010,839 y: 287,4659
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 915,9181 y: 481,4935
+HandRight x: 1002,724 y: 283,9464
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 926,976 y: 535,0453
+HandRight x: 998,6769 y: 282,2729
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1070,115 y: 409,9734
+HandRight x: 999,2578 y: 285,2576
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1152,365 y: 433,4858
+HandRight x: 999,3316 y: 293,0755
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1167,119 y: 435,6977
+HandRight x: 1122,646 y: 473,7114
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1158,797 y: 418,0331
+HandRight x: 1140,184 y: 449,1718
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1156,333 y: 409,0571
+HandRight x: 1161,286 y: 404,5696
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1161,244 y: 420,5023
+HandRight x: 1136,241 y: 449,7773
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1173,847 y: 441,1733
+HandRight x: 1128,953 y: 475,3267
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1180,809 y: 439,6967
+HandRight x: 1133,285 y: 487,7493
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1153,645 y: 425,7932
+HandRight x: 1128,427 y: 435,2266
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1156,435 y: 425,0862
+HandRight x: 1171,576 y: 451,9731
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1158,559 y: 450,1563
+HandRight x: 1165,713 y: 484,7301
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1125,617 y: 458,121
+HandRight x: 1171,655 y: 487,2588
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1115,917 y: 444,642
+HandRight x: 1162,984 y: 467,9304
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1122,05 y: 431,564
+HandRight x: 1157,944 y: 453,7225
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1114,849 y: 437,6698
+HandRight x: 1154,876 y: 458,6394
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1107,681 y: 447,5305
+HandRight x: 1153,709 y: 466,4156
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1133,798 y: 443,3676
+HandRight x: 1149,606 y: 455,2909
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1055,757 y: 439,2339
+HandRight x: 1128,778 y: 431,706
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1061,867 y: 433,0018
+HandRight x: 1133,686 y: 435,3552
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1085,407 y: 437,0744
+HandRight x: 1124,378 y: 446,4548
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1057,609 y: 443,2209
+HandRight x: 1120,984 y: 450,6496
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1049,525 y: 435,7416
+HandRight x: 1115,25 y: 437,4684
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1041,299 y: 427,1215
+HandRight x: 1108,891 y: 425,1442
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1038,22 y: 422,6407
+HandRight x: 1105,8 y: 422,9474
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1038,939 y: 424,8741
+HandRight x: 1108,577 y: 427,6059
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1039,697 y: 425,1254
+HandRight x: 1113,576 y: 432,3427
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1033,95 y: 414,3855
+HandRight x: 1103,953 y: 421,8876
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1025,386 y: 409,4838
+HandRight x: 1103,924 y: 416,9247
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1024,167 y: 418,1815
+HandRight x: 1102,93 y: 424,1638
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1016,941 y: 419,6219
+HandRight x: 1082,09 y: 410,5005
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1016,634 y: 409,1536
+HandRight x: 1035,555 y: 398,6877
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1004,952 y: 409,4601
+HandRight x: 1091,823 y: 417,3134
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1005,637 y: 407,628
+HandRight x: 1080,039 y: 397,9852
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1003,04 y: 416,9517
+HandRight x: 1085,572 y: 422,1208
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1002,209 y: 402,926
+HandRight x: 1085,637 y: 405,3917
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 992,237 y: 394,1107
+HandRight x: 1080,43 y: 396,2805
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 970,5334 y: 404,6182
+HandRight x: 1061,08 y: 396,5035
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 969,2496 y: 411,9328
+HandRight x: 1062,174 y: 415,6922
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 936,9323 y: 428,9916
+HandRight x: 1062,28 y: 421,5776
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 925,6866 y: 420,8306
+HandRight x: 1057,922 y: 407,9691
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 916,9965 y: 413,3135
+HandRight x: 1047,235 y: 386,4115
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 906,135 y: 409,5072
+HandRight x: 1045,032 y: 391,5775
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 930,0435 y: 432,4362
+HandRight x: 1044,301 y: 404,9031
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 924,3921 y: 431,3289
+HandRight x: 1040,591 y: 398,9294
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 918,4083 y: 424,1509
+HandRight x: 1038,089 y: 392,5665
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 916,2069 y: 425,5393
+HandRight x: 1027,57 y: 387,4683
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 950,9227 y: 387,98
+HandRight x: 1034,508 y: 398,8295
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 933,9886 y: 392,9266
+HandRight x: 933,697 y: 391,7787
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 935,4838 y: 405,6178
+HandRight x: 1001,268 y: 380,491
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 941,1898 y: 406,0345
+HandRight x: 1008,951 y: 387,2814
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1002,981 y: 387,8736
+HandRight x: 1051,991 y: 400,8574
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 946,3715 y: 426,5694
+HandRight x: 1056,44 y: 409,9457
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1032,611 y: 382,4038
+HandRight x: 1089,062 y: 399,9655
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 990,7617 y: 390,311
+HandRight x: 1036,296 y: 362,9794
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 990,8809 y: 380,2904
+HandRight x: 1049,324 y: 358,6563
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1066,122 y: 364,3421
+HandRight x: 1057,009 y: 364,3134
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1070,619 y: 406,947
+HandRight x: 1061,464 y: 363,2557
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1085,801 y: 388,5076
+HandRight x: 1092,872 y: 346,0141
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1163,031 y: 344,4156
+HandRight x: 1104,701 y: 343,5658
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1159,421 y: 335,6176
+HandRight x: 1138,81 y: 339,0788
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1188,876 y: 341,394
+HandRight x: 1166,352 y: 338,5033
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1209,427 y: 357,7079
+HandRight x: 1191,684 y: 340,6441
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1251,286 y: 341,4996
+HandRight x: 1217,599 y: 345,8477
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1292,022 y: 363,0564
+HandRight x: 1323,725 y: 356,3091
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1223,416 y: 443,4372
+HandRight x: 1352,776 y: 414,687
+
+Frame aquired
+Tracked body = Yes
+HandLeft x: 1272,241 y: 431,2482
+HandRight x: 1460,986 y: 489,9562
+
+Frame aquired
+Tracked body = Yes
