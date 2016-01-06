@@ -14,15 +14,23 @@
         <TextBlock Grid.Row="0"  x:Name="testWindow" Width="1920" VerticalAlignment="Top" HorizontalAlignment="Left" FontWeight="Bold" FontSize="70" Background="Transparent" Margin="200,250,-208,-290"  />
         <Image Grid.Row="0" Name="camera" Width="1920" Height="1080"/>
         <Canvas Grid.Row="0" Name="canvas" Width="1920" Height="1080"/>
-
+        <Image Grid.Row="0" Name="cameraDepth" Width="512" Height="424" />
+        <Canvas Grid.Row="0" Name="canvasDepth" Width="512" Height="424"/>
+        
         <StackPanel>
             <RadioButton Grid.Row="1" x:Name="twoJoints" GroupName="joints" Content="Two Joint Points" Canvas.Left="260" Click="NumberOfJointPoints" IsChecked="True" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
-            <RadioButton Grid.Row="1" x:Name="sixJoints" GroupName="joints" Content="Six Joint Points" Canvas.Left="230" Click="NumberOfJointPoints" IsChecked="False" FontSize="16" Canvas.Top="10" BorderThickness="0,1,1,1" Width="131"/>
+            <RadioButton Grid.Row="1" x:Name="sixJoints" GroupName="joints" Content="Six Joint Points" Canvas.Left="230" Click="NumberOfJointPoints" IsChecked="False" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
+             </StackPanel>
+
+        <StackPanel Margin="142,0,-142,0">
+            <RadioButton Grid.Row="1" x:Name="depthMode" GroupName="mode" Content="Depth Mode" Canvas.Left="260" Click="SelectMode" IsChecked="False" FontSize="16" Canvas.Top="10" BorderThickness="0,1,1,1" Width="131"/>
+            <RadioButton Grid.Row="1" x:Name="colorMode" GroupName="mode" Content="Color Mode" Click="SelectMode" IsChecked="True" FontSize="16" BorderThickness="0,1,1,1" Width="131" />
         </StackPanel>
+        
 
 
         <TextBlock Grid.Row="1" HorizontalAlignment="Center" FontSize="16" Margin="0 10 0 10" Width="356" >
-            Say: <Span Name="start">Go</Span> to start recording and <Span Name="stop">Escape</Span> to stop it.
+            Say: <Span Name="start">"Go"</Span> to start recording and <Span Name="stop">"Escape"</Span> to stop it.
         </TextBlock>
     </Grid>
 </Window>

@@ -155,10 +155,13 @@ namespace KinectStreams
                 Point point = new Point();
 
                 ColorSpacePoint colorPoint = _sensor.CoordinateMapper.MapCameraPointToColorSpace(jointPosition);
+                //DepthSpacePoint depthPoint = _sensor.CoordinateMapper.MapCameraPointToDepthSpace(jointPosition);
 
-                point.X = float.IsInfinity(colorPoint.X) ? 0 : colorPoint.X;
-                point.Y = float.IsInfinity(colorPoint.Y) ? 0 : colorPoint.Y;
+                 point.X = float.IsInfinity(colorPoint.X) ? 0 : colorPoint.X;
+               // point.X = float.IsInfinity(depthPoint.X) ? 0 : depthPoint.X;
 
+                 point.Y = float.IsInfinity(colorPoint.Y) ? 0 : colorPoint.Y;
+                // point.Y = float.IsInfinity(depthPoint.Y) ? 0 : depthPoint.Y;
 
                 // Draw
                 Ellipse ellipse = new Ellipse
