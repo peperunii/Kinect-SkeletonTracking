@@ -384,7 +384,6 @@ namespace KinectCoordinateMapping
             this.ClearRecognitionHighlights();
         }
 
-        // Try
 
         void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
