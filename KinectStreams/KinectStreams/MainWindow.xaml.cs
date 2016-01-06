@@ -516,7 +516,7 @@ namespace KinectCoordinateMapping
                     canvasDepth.Visibility = Visibility.Visible;
                     finishedCountdown = false;
                 }
-            }
+              }
             
 
             
