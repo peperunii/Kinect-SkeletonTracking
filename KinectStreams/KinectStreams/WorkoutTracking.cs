@@ -52,11 +52,11 @@ namespace Fitnematic.Core.BenchPressTest
 
         int _workingMode = 1;
         int _skippedFramesForMode2 = 11;
-        double _angleThreshold = 22; // 35;
-        double _distanceThreshold = 60; //40; // 70;
+        double _angleThreshold = 16; // 35;
+        double _distanceThreshold = 70; //40; // 70;
         int _calculatedFramesSinceStart = 0;
-        int _numberOfAngleDetectionZones = 14; //10 //16; // // 8;
-        const int numberOfFramesForDirCalculation =  12;
+        int _numberOfAngleDetectionZones = 16; //10 //16; // // 8;
+        const int numberOfFramesForDirCalculation =  9;
 
         List<JointType> jointsOfInterest;
         Dictionary<JointType, int> jointDirs;

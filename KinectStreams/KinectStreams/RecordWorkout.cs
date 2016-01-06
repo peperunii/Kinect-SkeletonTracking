@@ -16,11 +16,11 @@ namespace KinectStreams
         /*Set threshold for movement difference detection*/
         double angleDiff = 16; //35; // for merging two vectors
         //double distanceDiff = 70;
-        int numberOfAngleDetectionZones = 14; //10;//16; // // 8;
+        int numberOfAngleDetectionZones = 16; //10;//16; // // 8;
         int MOVEMENT_VECTOR_MIN_DISTANCE_IN_PIX = 10;
 
         int curNumberOfFrame = 0;
-        int numberOfFramesForMovementDetection = 12;
+        int numberOfFramesForMovementDetection = 9;
 
         List<JointType> jointsOfInterest;
 
