@@ -364,7 +364,7 @@ namespace KinectCoordinateMapping
                     case "START":
                         testWindow.Visibility = Visibility.Visible;
                         this.ButtonRecordMovement_Click(null, null);
-                        
+
                         break;
 
                     case "STOP":
@@ -384,6 +384,7 @@ namespace KinectCoordinateMapping
             this.ClearRecognitionHighlights();
         }
 
+        // Try
 
         void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
@@ -501,14 +502,18 @@ namespace KinectCoordinateMapping
                 canvas.Visibility = Visibility.Visible;
                 cameraDepth.Visibility = Visibility.Hidden;
                 canvasDepth.Visibility = Visibility.Hidden;
+                finishedCountdown = false;
             }
-            else if (_mode == CameraMode.Depth && finishedCountdown)
+
+            if (_mode == CameraMode.Depth && finishedCountdown)
             {
                 camera.Visibility = Visibility.Hidden;
                 canvas.Visibility = Visibility.Hidden;
                 cameraDepth.Visibility = Visibility.Visible;
                 canvasDepth.Visibility = Visibility.Visible;
+                finishedCountdown = false;
             } 
+
             
             // Body
             using (var frame = reference.BodyFrameReference.AcquireFrame())
