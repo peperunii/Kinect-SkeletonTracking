@@ -55,6 +55,7 @@ namespace KinectCoordinateMapping
         static bool escape = false;
 
         static bool jointsChange = false;
+        static bool finishedCountdown = false;
 
         [DllImport("user32")]
         public static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
@@ -227,8 +228,9 @@ namespace KinectCoordinateMapping
 
             Dispatcher.Invoke(() =>
             {
-               /* if(_mode == CameraMode.Color)
-                { */
+                /* if(_mode == CameraMode.Color)
+                 { */
+                finishedCountdown = true;
                     canvas.Visibility = Visibility.Visible;
                     camera.Visibility = Visibility.Visible;
                /* }
@@ -237,7 +239,10 @@ namespace KinectCoordinateMapping
                     canvasDepth.Visibility = Visibility.Visible;                
                     cameraDepth.Visibility = Visibility.Visible;
                 //  }
-                testWindow.Visibility = Visibility.Hidden;
+                
+                    testWindow.Visibility = Visibility.Hidden;
+                
+               
                 //button.Visibility = Visibility.Hidden;
             });
         }
@@ -357,7 +362,9 @@ namespace KinectCoordinateMapping
                 switch (e.Result.Semantics.Value.ToString())
                 {
                     case "START":
+                        testWindow.Visibility = Visibility.Visible;
                         this.ButtonRecordMovement_Click(null, null);
+                        
                         break;
 
                     case "STOP":
@@ -408,20 +415,7 @@ namespace KinectCoordinateMapping
                 }
             }
 
-            if (_mode == CameraMode.Color)
-            {
-                camera.Visibility = Visibility.Visible;
-                canvas.Visibility = Visibility.Visible;
-                cameraDepth.Visibility = Visibility.Hidden;
-                canvasDepth.Visibility = Visibility.Hidden;
-            }
-            else if(_mode == CameraMode.Depth)
-            {
-                camera.Visibility = Visibility.Hidden;
-                canvas.Visibility = Visibility.Hidden;
-                cameraDepth.Visibility = Visibility.Visible;
-                canvasDepth.Visibility = Visibility.Visible;
-            }
+           
 
             Ellipse ellipse1 = new Ellipse
             {
@@ -500,6 +494,22 @@ namespace KinectCoordinateMapping
                 Width = 20,
                 Height = 20
             };
+
+            if (_mode == CameraMode.Color && finishedCountdown)
+            {
+                camera.Visibility = Visibility.Visible;
+                canvas.Visibility = Visibility.Visible;
+                cameraDepth.Visibility = Visibility.Hidden;
+                canvasDepth.Visibility = Visibility.Hidden;
+            }
+            else if (_mode == CameraMode.Depth && finishedCountdown)
+            {
+                camera.Visibility = Visibility.Hidden;
+                canvas.Visibility = Visibility.Hidden;
+                cameraDepth.Visibility = Visibility.Visible;
+                canvasDepth.Visibility = Visibility.Visible;
+            } 
+            
             // Body
             using (var frame = reference.BodyFrameReference.AcquireFrame())
             {
