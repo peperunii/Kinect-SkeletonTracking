@@ -231,13 +231,18 @@ namespace KinectCoordinateMapping
                 /* if(_mode == CameraMode.Color)
                  { */
                 finishedCountdown = true;
-                    canvas.Visibility = Visibility.Visible;
-                    camera.Visibility = Visibility.Visible;
+<<<<<<< HEAD
+               // canvas.Visibility = Visibility.Visible;
+               // camera.Visibility = Visibility.Visible;
+=======
+                canvas.Visibility = Visibility.Visible;
+                camera.Visibility = Visibility.Visible;
+>>>>>>> 43e279247e4d78e50cc6ca8c2d1e3abd86e1130a
                /* }
                 else if(_mode == CameraMode.Depth)
                 {*/
-                    canvasDepth.Visibility = Visibility.Visible;                
-                    cameraDepth.Visibility = Visibility.Visible;
+                    //canvasDepth.Visibility = Visibility.Visible;                
+                   // cameraDepth.Visibility = Visibility.Visible;
                 //  }
                 
                     testWindow.Visibility = Visibility.Hidden;
@@ -495,23 +500,27 @@ namespace KinectCoordinateMapping
                 Height = 20
             };
 
-            if (_mode == CameraMode.Color && finishedCountdown)
-            {
-                camera.Visibility = Visibility.Visible;
-                canvas.Visibility = Visibility.Visible;
-                cameraDepth.Visibility = Visibility.Hidden;
-                canvasDepth.Visibility = Visibility.Hidden;
-                finishedCountdown = false;
-            }
+           //if(finishedCountdown)
+            //{
+                if (_mode == CameraMode.Color)
+                {
+                    camera.Visibility = Visibility.Visible;
+                    canvas.Visibility = Visibility.Visible;
+                    cameraDepth.Visibility = Visibility.Hidden;
+                    canvasDepth.Visibility = Visibility.Hidden;
+                    finishedCountdown = false;
+                }
 
-            if (_mode == CameraMode.Depth && finishedCountdown)
-            {
-                camera.Visibility = Visibility.Hidden;
-                canvas.Visibility = Visibility.Hidden;
-                cameraDepth.Visibility = Visibility.Visible;
-                canvasDepth.Visibility = Visibility.Visible;
-                finishedCountdown = false;
-            } 
+                if (_mode == CameraMode.Depth)
+                {
+                    camera.Visibility = Visibility.Hidden;
+                    canvas.Visibility = Visibility.Hidden;
+                    cameraDepth.Visibility = Visibility.Visible;
+                    canvasDepth.Visibility = Visibility.Visible;
+                    finishedCountdown = false;
+                }
+            //}
+            
 
             
             // Body
