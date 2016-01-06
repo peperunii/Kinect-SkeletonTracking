@@ -39,9 +39,6 @@ namespace KinectCoordinateMapping
         IList<Body> _bodies;
 
         CameraMode _mode = CameraMode.Color;
-        //CameraMode _mode = CameraMode.Depth;
-        
-          
         DepthFrame depthFrame;
         ColorFrame colorFrame;
 
@@ -88,17 +85,6 @@ namespace KinectCoordinateMapping
             benchPress = new WorkoutTracking(jointsOfInterest, 2);
         }
 
-        void SelectMode (object sender, RoutedEventArgs e)
-        {
-            if (depthMode.IsChecked == true)
-            {
-                _mode = CameraMode.Depth;
-            }
-            else
-            {
-                _mode = CameraMode.Color;
-            }
-        }
         void NumberOfJointPoints (object sender, RoutedEventArgs e)
         { 
             if(sixJoints.IsChecked == true)
@@ -178,7 +164,7 @@ namespace KinectCoordinateMapping
 
         private void ButtonRecordMovement_Click(object sender, RoutedEventArgs e)
         {
-
+            
             camera.Visibility = Visibility.Hidden;
             canvas.Visibility = Visibility.Hidden;
             BackgroundWorker bw = new BackgroundWorker();
@@ -217,7 +203,6 @@ namespace KinectCoordinateMapping
         private void Work1()
         {
             Updater uiUpdater = new Updater(UpdateUI);
-            //testWindow.Visibility = Visibility.Visible;
 
             for (int i = 3; i >= 1; i--)
             {
@@ -227,17 +212,8 @@ namespace KinectCoordinateMapping
 
             Dispatcher.Invoke(() =>
             {
-               /* if(_mode == CameraMode.Color)
-                { */
-                    canvas.Visibility = Visibility.Visible;
-                    camera.Visibility = Visibility.Visible;
-               /* }
-                else if(_mode == CameraMode.Depth)
-                {*/
-                    canvasDepth.Visibility = Visibility.Visible;                
-                    cameraDepth.Visibility = Visibility.Visible;
-                //  }
-                testWindow.Visibility = Visibility.Hidden;
+                canvas.Visibility = Visibility.Visible;
+                camera.Visibility = Visibility.Visible;
                 //button.Visibility = Visibility.Hidden;
             });
         }
@@ -259,9 +235,8 @@ namespace KinectCoordinateMapping
             {
                 _sensor.Open();
 
-                //Depth:_reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Body);//FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared |
-                _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Body | FrameSourceTypes.Depth | FrameSourceTypes.Color);//FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared |
-               _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
+                _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Body);//FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared |
+                _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
 
 
                 // grab the audio stream
@@ -378,6 +353,9 @@ namespace KinectCoordinateMapping
         }
 
 
+        
+
+
         void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
             var reference = e.FrameReference.AcquireFrame();
@@ -393,35 +371,20 @@ namespace KinectCoordinateMapping
                         camera.Source = colorFrame.ToBitmap();
                     }
                 }
-            } 
+            }
 
             
             // Depth
-            depthFrame = reference.DepthFrameReference.AcquireFrame();
-            {
-                if (depthFrame != null)
-                {
-                    if (_mode == CameraMode.Depth)
-                    {
-                        cameraDepth.Source = depthFrame.ToBitmap();
-                    }
-                }
-            }
-
-            if (_mode == CameraMode.Color)
-            {
-                camera.Visibility = Visibility.Visible;
-                canvas.Visibility = Visibility.Visible;
-                cameraDepth.Visibility = Visibility.Hidden;
-                canvasDepth.Visibility = Visibility.Hidden;
-            }
-            else if(_mode == CameraMode.Depth)
-            {
-                camera.Visibility = Visibility.Hidden;
-                canvas.Visibility = Visibility.Hidden;
-                cameraDepth.Visibility = Visibility.Visible;
-                canvasDepth.Visibility = Visibility.Visible;
-            }
+            //var depthFrame = reference.DepthFrameReference.AcquireFrame();
+            //{
+            //    if (depthFrame != null)
+            //    {
+            //        if (_mode == CameraMode.Depth)
+            //        {
+            //            camera.Source = depthFrame.ToBitmap();
+            //        }
+            //    }
+            //}
 
             Ellipse ellipse1 = new Ellipse
             {
@@ -432,8 +395,8 @@ namespace KinectCoordinateMapping
             Ellipse ellipse2 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
 
             Ellipse ellipse3 = new Ellipse
@@ -445,8 +408,8 @@ namespace KinectCoordinateMapping
             Ellipse ellipse4 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
 
             Ellipse ellipse5 = new Ellipse
@@ -458,8 +421,8 @@ namespace KinectCoordinateMapping
             Ellipse ellipse6 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
 
             Ellipse ellipse7 = new Ellipse
@@ -471,8 +434,8 @@ namespace KinectCoordinateMapping
             Ellipse ellipse8 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
 
             Ellipse ellipse9 = new Ellipse
@@ -484,8 +447,8 @@ namespace KinectCoordinateMapping
             Ellipse ellipse10 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
 
             Ellipse ellipse11 = new Ellipse
@@ -497,17 +460,15 @@ namespace KinectCoordinateMapping
             Ellipse ellipse12 = new Ellipse
             {
                 Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Width = 10,
+                Height = 10
             };
             // Body
             using (var frame = reference.BodyFrameReference.AcquireFrame())
             {
                 if (frame != null)
                 {
-                    
-                    this.canvas.Children.Clear();
-                    this.canvasDepth.Children.Clear();
+                    canvas.Children.Clear();
 
                     _bodies = new Body[frame.BodyFrameSource.BodyCount];
 
@@ -519,22 +480,12 @@ namespace KinectCoordinateMapping
                         //if (bodyIndex != 0) continue;
                         //bodyIndex++;
                         var cameraSpacePoint = new CameraSpacePoint();
-
-                        DepthSpacePoint depthPointWristLeft = new DepthSpacePoint();
-                        DepthSpacePoint depthPointWristRight = new DepthSpacePoint();
-                        DepthSpacePoint depthPointHead = new DepthSpacePoint();
-                        DepthSpacePoint depthPointSpineMid = new DepthSpacePoint();
-                        DepthSpacePoint depthPointKneeLeft = new DepthSpacePoint();
-                        DepthSpacePoint depthPointKneeRight = new DepthSpacePoint();
-
                         ColorSpacePoint colorPointWristLeft = new ColorSpacePoint();
                         ColorSpacePoint colorPointWristRight = new ColorSpacePoint();
                         ColorSpacePoint colorPointHead = new ColorSpacePoint();
                         ColorSpacePoint colorPointSpineMid = new ColorSpacePoint();
                         ColorSpacePoint colorPointKneeLeft = new ColorSpacePoint();
                         ColorSpacePoint colorPointKneeRight = new ColorSpacePoint();
-                            
-     
 
                         if (body.IsTracked)
                         {
@@ -550,95 +501,49 @@ namespace KinectCoordinateMapping
                                 cameraSpacePoint.Z = joint.Position.Z; //(float)currentFrameBody.currentFrameBody[joint.JointType].Z;
 
                                 var colorPoint = _sensor.CoordinateMapper.MapCameraPointToColorSpace(cameraSpacePoint);
-                                var depthPoint = _sensor.CoordinateMapper.MapCameraPointToDepthSpace(cameraSpacePoint);
 
-                                if(_mode == CameraMode.Depth)
+
+                                Ellipse ellipseBlue = new Ellipse
                                 {
-                                    Ellipse ellipseBlue = new Ellipse
-                                    {
-                                        Fill = Brushes.Blue,
-                                        Width = 10,
-                                        Height = 10
-                                    };
-                                    var xPos = depthPoint.X - ellipseBlue.Width / 2;
-                                    var yPos = depthPoint.Y - ellipseBlue.Height / 2;
+                                    Fill = Brushes.Blue,
+                                    Width = 10,
+                                    Height = 10
+                                };
+                                var xPos = colorPoint.X - ellipseBlue.Width / 2;
+                                var yPos = colorPoint.Y - ellipseBlue.Height / 2;
 
-                                    if (xPos >= 0 && xPos < this.canvasDepth.ActualWidth &&
-                                        yPos >= 0 && yPos < this.canvasDepth.ActualHeight)
-                                    {
-                                        Canvas.SetLeft(ellipseBlue, xPos);
-                                        Canvas.SetTop(ellipseBlue, yPos);
+                                if (xPos >= 0 && xPos < this.canvas.ActualWidth &&
+                                    yPos >= 0 && yPos < this.canvas.ActualHeight)
+                                {
+                                    Canvas.SetLeft(ellipseBlue, xPos);
+                                    Canvas.SetTop(ellipseBlue, yPos);
 
-                                        canvasDepth.Children.Add(ellipseBlue);
-                                    }
-                                    //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
-                                    if (jointsOfInterest.Contains(joint.JointType))
-                                    {
-                                        if (joint.JointType == JointType.HandLeft)
-                                            depthPointWristLeft = depthPoint;
-
-                                        else if (joint.JointType == JointType.HandRight)
-                                            depthPointWristRight = depthPoint;
-
-                                        else if (joint.JointType == JointType.Head)
-                                            depthPointHead = depthPoint;
-
-                                        else if (joint.JointType == JointType.SpineMid)
-                                            depthPointSpineMid = depthPoint;
-
-                                        else if (joint.JointType == JointType.KneeRight)
-                                            depthPointKneeRight = depthPoint;
-
-                                        else if (joint.JointType == JointType.KneeLeft)
-                                            depthPointKneeLeft = depthPoint;
-
-
-                                        currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D(depthPoint.X, depthPoint.Y, 0));
-                                    }
+                                    canvas.Children.Add(ellipseBlue);
                                 }
-                                else
-                                { 
-                                    Ellipse ellipseBlue = new Ellipse
-                                    {
-                                        Fill = Brushes.Blue,
-                                        Width = 10,
-                                        Height = 10
-                                    };
-                                    var xPos = colorPoint.X - ellipseBlue.Width / 2;
-                                    var yPos = colorPoint.Y - ellipseBlue.Height / 2;
+                                //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
+                                if (jointsOfInterest.Contains(joint.JointType))
+                                {
+                                    if (joint.JointType == JointType.HandLeft)
+                                        colorPointWristLeft = colorPoint;
 
-                                    if (xPos >= 0 && xPos < this.canvas.ActualWidth &&
-                                        yPos >= 0 && yPos < this.canvas.ActualHeight)
-                                    {
-                                        Canvas.SetLeft(ellipseBlue, xPos);
-                                        Canvas.SetTop(ellipseBlue, yPos);
+                                    else if (joint.JointType == JointType.HandRight)
+                                        colorPointWristRight = colorPoint;
 
-                                        canvas.Children.Add(ellipseBlue);
-                                    }
-                                    //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
-                                    if (jointsOfInterest.Contains(joint.JointType))
-                                    {
-                                        if (joint.JointType == JointType.HandLeft)
-                                            colorPointWristLeft = colorPoint;
+                                    else if (joint.JointType == JointType.Head)
+                                        colorPointHead = colorPoint;
 
-                                        else if (joint.JointType == JointType.HandRight)
-                                            colorPointWristRight = colorPoint;
+                                    else if (joint.JointType == JointType.SpineMid)
+                                        colorPointSpineMid = colorPoint;
 
-                                        else if (joint.JointType == JointType.Head)
-                                            colorPointHead = colorPoint;
+                                    else if (joint.JointType == JointType.KneeRight)
+                                        colorPointKneeRight = colorPoint;
 
-                                        else if (joint.JointType == JointType.SpineMid)
-                                            colorPointSpineMid = colorPoint;
+                                    else if (joint.JointType == JointType.KneeLeft)
+                                        colorPointKneeLeft = colorPoint;
 
-                                        else if (joint.JointType == JointType.KneeRight)
-                                            colorPointKneeRight = colorPoint;
+                                 
 
-                                        else if (joint.JointType == JointType.KneeLeft)
-                                            colorPointKneeLeft = colorPoint;
-                                        
-
-                                        currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D(colorPoint.X, colorPoint.Y, 0));
-                                    }
+                                    currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D(colorPoint.X, colorPoint.Y, 0));
                                 }
                             }
 
@@ -670,494 +575,184 @@ namespace KinectCoordinateMapping
                                     var resultKneeLeft = curFrameResult.BoneStates[JointType.KneeLeft];
                                     var resultKneeRight = curFrameResult.BoneStates[JointType.KneeRight];
 
-                                    if (_mode == CameraMode.Depth)
+                                    if (resultSpineMid == SkeletonBoneState.Matched)
                                     {
-                                        if (resultSpineMid == SkeletonBoneState.Matched)
+                                     var xPosMid = colorPointSpineMid.X - ellipse7.Width / 2;
+                                     var yPosMid = colorPointSpineMid.Y - ellipse7.Height / 2;
+
+                                        if (xPosMid >= 0 && xPosMid < this.canvas.ActualWidth &&
+                                            yPosMid >= 0 && yPosMid < this.canvas.ActualHeight)
                                         {
-                                            var xPosMid = depthPointSpineMid.X - ellipse7.Width / 2;
-                                            var yPosMid = depthPointSpineMid.Y - ellipse7.Height / 2;
+                                            Canvas.SetLeft(ellipse7, xPosMid);
+                                            Canvas.SetTop(ellipse7, yPosMid);
 
-                                            if (xPosMid >= 0 && xPosMid < this.canvasDepth.ActualWidth &&
-                                                yPosMid >= 0 && yPosMid < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse7, xPosMid);
-                                                Canvas.SetTop(ellipse7, yPosMid);
-
-                                                canvasDepth.Children.Add(ellipse7);
-                                            }
-                                        }
-                                        else
-                                        {
-                                            var xPosMid = depthPointSpineMid.X - ellipse8.Width / 2;
-                                            var yPosMid = depthPointSpineMid.Y - ellipse8.Height / 2;
-
-                                            if (xPosMid >= 0 && xPosMid < this.canvasDepth.ActualWidth &&
-                                                yPosMid >= 0 && yPosMid < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse8, xPosMid);
-                                                Canvas.SetTop(ellipse8, yPosMid);
-
-                                                canvasDepth.Children.Add(ellipse8);
-                                            }
-                                        }
-
-                                        if (resultKneeLeft == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosKneeLeft = depthPointKneeLeft.X - ellipse9.Width / 2;
-                                            var yPosKneeLeft = depthPointKneeLeft.Y - ellipse9.Height / 2;
-
-                                            if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvasDepth.ActualWidth &&
-                                                yPosKneeLeft >= 0 && yPosKneeLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse9, xPosKneeLeft);
-                                                Canvas.SetTop(ellipse9, yPosKneeLeft);
-
-                                                canvasDepth.Children.Add(ellipse9);
-                                            }
-                                        }
-                                        else
-                                        {
-                                            var xPosKneeLeft = depthPointKneeLeft.X - ellipse10.Width / 2;
-                                            var yPosKneeLeft = depthPointKneeLeft.Y - ellipse10.Height / 2;
-
-                                            if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvasDepth.ActualWidth &&
-                                                yPosKneeLeft >= 0 && yPosKneeLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse10, xPosKneeLeft);
-                                                Canvas.SetTop(ellipse10, yPosKneeLeft);
-
-                                                canvasDepth.Children.Add(ellipse10);
-                                            }
-                                        }
-
-                                        if (resultKneeRight == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosKneeRight = depthPointKneeRight.X - ellipse11.Width / 2;
-                                            var yPosKneeRight = depthPointKneeRight.Y - ellipse11.Height / 2;
-
-                                            if (xPosKneeRight >= 0 && xPosKneeRight < this.canvasDepth.ActualWidth &&
-                                                yPosKneeRight >= 0 && yPosKneeRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse11, xPosKneeRight);
-                                                Canvas.SetTop(ellipse11, yPosKneeRight);
-
-                                                canvasDepth.Children.Add(ellipse11);
-                                            }
-                                        }
-                                        else
-                                        {
-                                            var xPosKneeRight = depthPointKneeRight.X - ellipse12.Width / 2;
-                                            var yPosKneeRight = depthPointKneeRight.Y - ellipse12.Height / 2;
-
-                                            if (xPosKneeRight >= 0 && xPosKneeRight < this.canvasDepth.ActualWidth &&
-                                                yPosKneeRight >= 0 && yPosKneeRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse12, xPosKneeRight);
-                                                Canvas.SetTop(ellipse12, yPosKneeRight);
-
-                                                canvasDepth.Children.Add(ellipse12);
-                                            }
-                                        }
-
-                                        if (resultHead == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosHead = depthPointHead.X - ellipse5.Width / 2;
-                                            var yPosHead = depthPointHead.Y - ellipse5.Height / 2;
-
-                                            if (xPosHead >= 0 && xPosHead < this.canvasDepth.ActualWidth &&
-                                                yPosHead >= 0 && yPosHead < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse5, xPosHead);
-                                                Canvas.SetTop(ellipse5, yPosHead);
-
-                                                canvasDepth.Children.Add(ellipse5);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosHead = depthPointHead.X - ellipse6.Width / 2;
-                                            var yPosHead = depthPointHead.Y - ellipse6.Height / 2;
-
-                                            if (xPosHead >= 0 && xPosHead < this.canvasDepth.ActualWidth &&
-                                                yPosHead >= 0 && yPosHead < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse6, xPosHead);
-                                                Canvas.SetTop(ellipse6, yPosHead);
-
-                                                canvasDepth.Children.Add(ellipse6);
-                                            }
-                                        }
-
-                                        if (resultWristLeft == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosLeft = depthPointWristLeft.X - ellipse1.Width / 2;
-                                            var yPosLeft = depthPointWristLeft.Y - ellipse1.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvasDepth.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse1, xPosLeft);
-                                                Canvas.SetTop(ellipse1, yPosLeft);
-
-                                                canvasDepth.Children.Add(ellipse1);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosLeft = depthPointWristLeft.X - ellipse2.Width / 2;
-                                            var yPosLeft = depthPointWristLeft.Y - ellipse2.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvasDepth.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse2, xPosLeft);
-                                                Canvas.SetTop(ellipse2, yPosLeft);
-
-                                                canvasDepth.Children.Add(ellipse2);
-                                            }
-                                        }
-
-                                        if (resultWristRight == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosRight = depthPointWristRight.X - ellipse3.Width / 2;
-                                            var yPosRight = depthPointWristRight.Y - ellipse3.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvasDepth.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse3, xPosRight);
-                                                Canvas.SetTop(ellipse3, yPosRight);
-
-                                                canvasDepth.Children.Add(ellipse3);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosRight = depthPointWristRight.X - ellipse4.Width / 2;
-                                            var yPosRight = depthPointWristRight.Y - ellipse4.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvasDepth.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse4, xPosRight);
-                                                Canvas.SetTop(ellipse4, yPosRight);
-
-                                                canvasDepth.Children.Add(ellipse4);
-                                            }
+                                            canvas.Children.Add(ellipse7);
                                         }
                                     }
                                     else
                                     {
-                                        if (resultSpineMid == SkeletonBoneState.Matched)
+                                        var xPosMid = colorPointSpineMid.X - ellipse8.Width / 2;
+                                        var yPosMid = colorPointSpineMid.Y - ellipse8.Height / 2;
+
+                                        if (xPosMid >= 0 && xPosMid < this.canvas.ActualWidth &&
+                                            yPosMid >= 0 && yPosMid < this.canvas.ActualHeight)
                                         {
-                                            var xPosMid = colorPointSpineMid.X - ellipse7.Width / 2;
-                                            var yPosMid = colorPointSpineMid.Y - ellipse7.Height / 2;
+                                            Canvas.SetLeft(ellipse8, xPosMid);
+                                            Canvas.SetTop(ellipse8, yPosMid);
 
-                                            if (xPosMid >= 0 && xPosMid < this.canvas.ActualWidth &&
-                                                yPosMid >= 0 && yPosMid < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse7, xPosMid);
-                                                Canvas.SetTop(ellipse7, yPosMid);
-
-                                                canvas.Children.Add(ellipse7);
-                                            }
+                                            canvas.Children.Add(ellipse8);
                                         }
-                                        else
+                                    }
+
+                                    if (resultKneeLeft == SkeletonBoneState.Matched)
+                                    {
+                                        var xPosKneeLeft = colorPointKneeLeft.X - ellipse9.Width / 2;
+                                        var yPosKneeLeft = colorPointKneeLeft.Y - ellipse9.Height / 2;
+
+                                        if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvas.ActualWidth &&
+                                            yPosKneeLeft >= 0 && yPosKneeLeft < this.canvas.ActualHeight)
                                         {
-                                            var xPosMid = colorPointSpineMid.X - ellipse8.Width / 2;
-                                            var yPosMid = colorPointSpineMid.Y - ellipse8.Height / 2;
+                                            Canvas.SetLeft(ellipse9, xPosKneeLeft);
+                                            Canvas.SetTop(ellipse9, yPosKneeLeft);
 
-                                            if (xPosMid >= 0 && xPosMid < this.canvas.ActualWidth &&
-                                                yPosMid >= 0 && yPosMid < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse8, xPosMid);
-                                                Canvas.SetTop(ellipse8, yPosMid);
-
-                                                canvas.Children.Add(ellipse8);
-                                            }
+                                            canvas.Children.Add(ellipse9);
                                         }
+                                    }
+                                    else
+                                    {
+                                        var xPosKneeLeft = colorPointKneeLeft.X - ellipse10.Width / 2;
+                                        var yPosKneeLeft = colorPointKneeLeft.Y - ellipse10.Height / 2;
 
-                                        if (resultKneeLeft == SkeletonBoneState.Matched)
+                                        if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvas.ActualWidth &&
+                                            yPosKneeLeft >= 0 && yPosKneeLeft < this.canvas.ActualHeight)
                                         {
-                                            var xPosKneeLeft = colorPointKneeLeft.X - ellipse9.Width / 2;
-                                            var yPosKneeLeft = colorPointKneeLeft.Y - ellipse9.Height / 2;
+                                            Canvas.SetLeft(ellipse10, xPosKneeLeft);
+                                            Canvas.SetTop(ellipse10, yPosKneeLeft);
 
-                                            if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvas.ActualWidth &&
-                                                yPosKneeLeft >= 0 && yPosKneeLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse9, xPosKneeLeft);
-                                                Canvas.SetTop(ellipse9, yPosKneeLeft);
-
-                                                canvas.Children.Add(ellipse9);
-                                            }
+                                            canvas.Children.Add(ellipse10);
                                         }
-                                        else
+                                    }
+
+                                    if (resultKneeRight == SkeletonBoneState.Matched)
+                                    {
+                                        var xPosKneeRight = colorPointKneeRight.X - ellipse11.Width / 2;
+                                        var yPosKneeRight = colorPointKneeRight.Y - ellipse11.Height / 2;
+
+                                        if (xPosKneeRight >= 0 && xPosKneeRight < this.canvas.ActualWidth &&
+                                            yPosKneeRight >= 0 && yPosKneeRight < this.canvas.ActualHeight)
                                         {
-                                            var xPosKneeLeft = colorPointKneeLeft.X - ellipse10.Width / 2;
-                                            var yPosKneeLeft = colorPointKneeLeft.Y - ellipse10.Height / 2;
+                                            Canvas.SetLeft(ellipse11, xPosKneeRight);
+                                            Canvas.SetTop(ellipse11, yPosKneeRight);
 
-                                            if (xPosKneeLeft >= 0 && xPosKneeLeft < this.canvas.ActualWidth &&
-                                                yPosKneeLeft >= 0 && yPosKneeLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse10, xPosKneeLeft);
-                                                Canvas.SetTop(ellipse10, yPosKneeLeft);
-
-                                                canvas.Children.Add(ellipse10);
-                                            }
+                                            canvas.Children.Add(ellipse11);
                                         }
+                                    }
+                                    else
+                                    {
+                                        var xPosKneeRight = colorPointKneeRight.X - ellipse12.Width / 2;
+                                        var yPosKneeRight = colorPointKneeRight.Y - ellipse12.Height / 2;
 
-                                        if (resultKneeRight == SkeletonBoneState.Matched)
+                                        if (xPosKneeRight >= 0 && xPosKneeRight < this.canvas.ActualWidth &&
+                                            yPosKneeRight >= 0 && yPosKneeRight < this.canvas.ActualHeight)
                                         {
-                                            var xPosKneeRight = colorPointKneeRight.X - ellipse11.Width / 2;
-                                            var yPosKneeRight = colorPointKneeRight.Y - ellipse11.Height / 2;
+                                            Canvas.SetLeft(ellipse12, xPosKneeRight);
+                                            Canvas.SetTop(ellipse12, yPosKneeRight);
 
-                                            if (xPosKneeRight >= 0 && xPosKneeRight < this.canvas.ActualWidth &&
-                                                yPosKneeRight >= 0 && yPosKneeRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse11, xPosKneeRight);
-                                                Canvas.SetTop(ellipse11, yPosKneeRight);
-
-                                                canvas.Children.Add(ellipse11);
-                                            }
+                                            canvas.Children.Add(ellipse12);
                                         }
-                                        else
+                                    }
+
+                                    if (resultHead == SkeletonBoneState.Matched)
+                                    {
+                                        var xPosHead = colorPointHead.X - ellipse5.Width / 2;
+                                        var yPosHead = colorPointHead.Y - ellipse5.Height / 2;
+
+                                        if (xPosHead >= 0 && xPosHead < this.canvas.ActualWidth &&
+                                            yPosHead >= 0 && yPosHead < this.canvas.ActualHeight)
                                         {
-                                            var xPosKneeRight = colorPointKneeRight.X - ellipse12.Width / 2;
-                                            var yPosKneeRight = colorPointKneeRight.Y - ellipse12.Height / 2;
+                                            Canvas.SetLeft(ellipse5, xPosHead);
+                                            Canvas.SetTop(ellipse5, yPosHead);
 
-                                            if (xPosKneeRight >= 0 && xPosKneeRight < this.canvas.ActualWidth &&
-                                                yPosKneeRight >= 0 && yPosKneeRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse12, xPosKneeRight);
-                                                Canvas.SetTop(ellipse12, yPosKneeRight);
-
-                                                canvas.Children.Add(ellipse12);
-                                            }
+                                            canvas.Children.Add(ellipse5);
                                         }
 
-                                        if (resultHead == SkeletonBoneState.Matched)
+                                    }
+                                    else
+                                    {
+                                        var xPosHead = colorPointHead.X - ellipse6.Width / 2;
+                                        var yPosHead = colorPointHead.Y - ellipse6.Height / 2;
+
+                                        if (xPosHead >= 0 && xPosHead < this.canvas.ActualWidth &&
+                                            yPosHead >= 0 && yPosHead < this.canvas.ActualHeight)
                                         {
-                                            var xPosHead = colorPointHead.X - ellipse5.Width / 2;
-                                            var yPosHead = colorPointHead.Y - ellipse5.Height / 2;
+                                            Canvas.SetLeft(ellipse6, xPosHead);
+                                            Canvas.SetTop(ellipse6, yPosHead);
 
-                                            if (xPosHead >= 0 && xPosHead < this.canvas.ActualWidth &&
-                                                yPosHead >= 0 && yPosHead < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse5, xPosHead);
-                                                Canvas.SetTop(ellipse5, yPosHead);
-
-                                                canvas.Children.Add(ellipse5);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosHead = colorPointHead.X - ellipse6.Width / 2;
-                                            var yPosHead = colorPointHead.Y - ellipse6.Height / 2;
-
-                                            if (xPosHead >= 0 && xPosHead < this.canvas.ActualWidth &&
-                                                yPosHead >= 0 && yPosHead < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse6, xPosHead);
-                                                Canvas.SetTop(ellipse6, yPosHead);
-
-                                                canvas.Children.Add(ellipse6);
-                                            }
-                                        }
-
-                                        if (resultWristLeft == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosLeft = colorPointWristLeft.X - ellipse1.Width / 2;
-                                            var yPosLeft = colorPointWristLeft.Y - ellipse1.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse1, xPosLeft);
-                                                Canvas.SetTop(ellipse1, yPosLeft);
-
-                                                canvas.Children.Add(ellipse1);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosLeft = colorPointWristLeft.X - ellipse2.Width / 2;
-                                            var yPosLeft = colorPointWristLeft.Y - ellipse2.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse2, xPosLeft);
-                                                Canvas.SetTop(ellipse2, yPosLeft);
-
-                                                canvas.Children.Add(ellipse2);
-                                            }
-                                        }
-
-                                        if (resultWristRight == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosRight = colorPointWristRight.X - ellipse3.Width / 2;
-                                            var yPosRight = colorPointWristRight.Y - ellipse3.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse3, xPosRight);
-                                                Canvas.SetTop(ellipse3, yPosRight);
-
-                                                canvas.Children.Add(ellipse3);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosRight = colorPointWristRight.X - ellipse4.Width / 2;
-                                            var yPosRight = colorPointWristRight.Y - ellipse4.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse4, xPosRight);
-                                                Canvas.SetTop(ellipse4, yPosRight);
-
-                                                canvas.Children.Add(ellipse4);
-                                            }
+                                            canvas.Children.Add(ellipse6);
                                         }
                                     }
                                 }
                                
+                                
+                                if (resultWristLeft == SkeletonBoneState.Matched)
+                                {
+                                    var xPosLeft = colorPointWristLeft.X - ellipse1.Width / 2;
+                                    var yPosLeft = colorPointWristLeft.Y - ellipse1.Height / 2;
+
+                                    if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
+                                        yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
+                                    {
+                                        Canvas.SetLeft(ellipse1, xPosLeft);
+                                        Canvas.SetTop(ellipse1, yPosLeft);
+
+                                        canvas.Children.Add(ellipse1);
+                                    }
+                                    
+                                }
                                 else
                                 {
-                                    if (_mode == CameraMode.Depth)
+                                    var xPosLeft = colorPointWristLeft.X - ellipse2.Width / 2;
+                                    var yPosLeft = colorPointWristLeft.Y - ellipse2.Height / 2;
+
+                                    if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
+                                        yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
                                     {
-                                        if (resultWristLeft == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosLeft = depthPointWristLeft.X - ellipse1.Width / 2;
-                                            var yPosLeft = depthPointWristLeft.Y - ellipse1.Height / 2;
+                                        Canvas.SetLeft(ellipse2, xPosLeft);
+                                        Canvas.SetTop(ellipse2, yPosLeft);
 
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvasDepth.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse1, xPosLeft);
-                                                Canvas.SetTop(ellipse1, yPosLeft);
-
-                                                canvasDepth.Children.Add(ellipse1);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosLeft = depthPointWristLeft.X - ellipse2.Width / 2;
-                                            var yPosLeft = depthPointWristLeft.Y - ellipse2.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvasDepth.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse2, xPosLeft);
-                                                Canvas.SetTop(ellipse2, yPosLeft);
-
-                                                canvasDepth.Children.Add(ellipse2);
-                                            }
-                                        }
-
-                                        if (resultWristRight == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosRight = depthPointWristRight.X - ellipse3.Width / 2;
-                                            var yPosRight = depthPointWristRight.Y - ellipse3.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvasDepth.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse3, xPosRight);
-                                                Canvas.SetTop(ellipse3, yPosRight);
-
-                                                canvasDepth.Children.Add(ellipse3);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosRight = depthPointWristRight.X - ellipse4.Width / 2;
-                                            var yPosRight = depthPointWristRight.Y - ellipse4.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvasDepth.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvasDepth.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse4, xPosRight);
-                                                Canvas.SetTop(ellipse4, yPosRight);
-
-                                                canvasDepth.Children.Add(ellipse4);
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        if (resultWristLeft == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosLeft = colorPointWristLeft.X - ellipse1.Width / 2;
-                                            var yPosLeft = colorPointWristLeft.Y - ellipse1.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse1, xPosLeft);
-                                                Canvas.SetTop(ellipse1, yPosLeft);
-
-                                                canvas.Children.Add(ellipse1);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosLeft = colorPointWristLeft.X - ellipse2.Width / 2;
-                                            var yPosLeft = colorPointWristLeft.Y - ellipse2.Height / 2;
-
-                                            if (xPosLeft >= 0 && xPosLeft < this.canvas.ActualWidth &&
-                                                yPosLeft >= 0 && yPosLeft < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse2, xPosLeft);
-                                                Canvas.SetTop(ellipse2, yPosLeft);
-
-                                                canvas.Children.Add(ellipse2);
-                                            }
-                                        }
-
-                                        if (resultWristRight == SkeletonBoneState.Matched)
-                                        {
-                                            var xPosRight = colorPointWristRight.X - ellipse3.Width / 2;
-                                            var yPosRight = colorPointWristRight.Y - ellipse3.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse3, xPosRight);
-                                                Canvas.SetTop(ellipse3, yPosRight);
-
-                                                canvas.Children.Add(ellipse3);
-                                            }
-
-                                        }
-                                        else
-                                        {
-                                            var xPosRight = colorPointWristRight.X - ellipse4.Width / 2;
-                                            var yPosRight = colorPointWristRight.Y - ellipse4.Height / 2;
-
-                                            if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
-                                                yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
-                                            {
-                                                Canvas.SetLeft(ellipse4, xPosRight);
-                                                Canvas.SetTop(ellipse4, yPosRight);
-
-                                                canvas.Children.Add(ellipse4);
-                                            }
-                                        }
+                                        canvas.Children.Add(ellipse2);
                                     }
                                 }
-                               
+
+                                if (resultWristRight == SkeletonBoneState.Matched)
+                                {
+                                    var xPosRight = colorPointWristRight.X - ellipse3.Width / 2;
+                                    var yPosRight = colorPointWristRight.Y - ellipse3.Height / 2;
+
+                                    if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
+                                        yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
+                                    {
+                                        Canvas.SetLeft(ellipse3, xPosRight);
+                                        Canvas.SetTop(ellipse3, yPosRight);
+
+                                        canvas.Children.Add(ellipse3);
+                                    }
+
+                                }
+                                else
+                                {
+                                    var xPosRight = colorPointWristRight.X - ellipse4.Width / 2;
+                                    var yPosRight = colorPointWristRight.Y - ellipse4.Height / 2;
+
+                                    if (xPosRight >= 0 && xPosRight < this.canvas.ActualWidth &&
+                                        yPosRight >= 0 && yPosRight < this.canvas.ActualHeight)
+                                    {
+                                        Canvas.SetLeft(ellipse4, xPosRight);
+                                        Canvas.SetTop(ellipse4, yPosRight);
+
+                                        canvas.Children.Add(ellipse4);
+                                    }
+                                }
 
                                 
 
