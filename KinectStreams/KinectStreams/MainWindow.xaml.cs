@@ -231,8 +231,8 @@ namespace KinectCoordinateMapping
                 /* if(_mode == CameraMode.Color)
                  { */
                 finishedCountdown = true;
-                    canvas.Visibility = Visibility.Visible;
-                    camera.Visibility = Visibility.Visible;
+                canvas.Visibility = Visibility.Visible;
+                camera.Visibility = Visibility.Visible;
                /* }
                 else if(_mode == CameraMode.Depth)
                 {*/
