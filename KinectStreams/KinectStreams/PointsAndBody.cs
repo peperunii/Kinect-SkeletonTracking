@@ -62,12 +62,12 @@ namespace Bitseps
 
             if (deltaX > 0 && deltaY > 0)
             {
-                angle = 180 + System.Math.Atan(Math.Abs(deltaX / deltaY)) * 180 / System.Math.PI;
+                angle = 180 + System.Math.Atan(Math.Abs(deltaY / deltaX)) * 180 / System.Math.PI;
             }
 
             else if (deltaX < 0 && deltaY < 0)
             {
-                angle = System.Math.Atan(Math.Abs(deltaX / deltaY)) * 180 / System.Math.PI;
+                angle = System.Math.Atan(Math.Abs(deltaY / deltaX)) * 180 / System.Math.PI;
             }
 
             else if (deltaX < 0 && deltaY > 0)

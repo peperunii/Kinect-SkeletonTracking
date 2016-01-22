@@ -46,16 +46,16 @@ namespace Fitnematic.Core.BenchPressTest
           - mode 2: using only angles - the result is calculated during the current movement, but could be more inacurate in compare to mode 1.*/
 
         /*Thresholds and algorithm dependencies*/
-        double angleDiff = 16; //22; //35; // for merging two consecutive vectors
+        double angleDiff = 5; //16; //22; //35; // for merging two consecutive vectors
         int MOVEMENT_VECTOR_MIN_DISTANCE_IN_PIX = 4;
         bool USE_DISTANCE_APPROXIMATION = false;
 
         int _workingMode = 1;
         int _skippedFramesForMode2 = 11;
-        double _angleThreshold = 16; // 35;
-        double _distanceThreshold = 70; //40; // 70;
+        double _angleThreshold = 5; //16; // 35;
+        double _distanceThreshold = 60; //70; //40; 
         int _calculatedFramesSinceStart = 0;
-        int _numberOfAngleDetectionZones = 16; //10 //16; // // 8;
+        int _numberOfAngleDetectionZones = 24; //16; //10 //16; // // 8;
         const int numberOfFramesForDirCalculation =  9;
 
         List<JointType> jointsOfInterest;
