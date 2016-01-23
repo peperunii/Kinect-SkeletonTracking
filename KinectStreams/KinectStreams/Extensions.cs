@@ -360,8 +360,8 @@ namespace KinectStreams
             Ellipse ellipse = new Ellipse
                 {
                     Fill = Brushes.Red,
-                    Width = 10,
-                    Height = 10
+                    Width = 6,
+                    Height = 6
                 };
 
             /*       Canvas.SetLeft(ellipse, point.X - ellipse.Width / 2);

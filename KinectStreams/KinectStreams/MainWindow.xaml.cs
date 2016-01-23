@@ -456,79 +456,79 @@ namespace KinectCoordinateMapping
             Ellipse ellipse1 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse2 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             Ellipse ellipse3 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse4 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             Ellipse ellipse5 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse6 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             Ellipse ellipse7 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse8 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             Ellipse ellipse9 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse10 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             Ellipse ellipse11 = new Ellipse
             {
                 Fill = Brushes.Green,
-                Width = 20,
-                Height = 20
+                Width = 30,
+                Height = 30
             };
             Ellipse ellipse12 = new Ellipse
             {
-                Fill = Brushes.Pink,
-                Width = 20,
-                Height = 20
+                Fill = Brushes.Red,
+                Width = 30,
+                Height = 30
             };
 
             if (finishedCountdown)
@@ -626,7 +626,7 @@ namespace KinectCoordinateMapping
                                           canvasDepth.Children.Add(ellipseBlue);
                                       } */
 
-                                    Extensions.DrawSkeleton(canvas, body, _sensor);
+                                    //Extensions.DrawSkeleton(canvas, body, _sensor);
 
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
@@ -673,7 +673,7 @@ namespace KinectCoordinateMapping
                                           canvas.Children.Add(ellipseBlue);
                                       } */
 
-                                    Extensions.DrawSkeleton(canvas, body, _sensor);
+                                    //Extensions.DrawSkeleton(canvas, body, _sensor);
 
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
@@ -731,12 +731,12 @@ namespace KinectCoordinateMapping
                                 {
                                     recordVisualization = false;
 
-                                    Color colorHandLeft = Color.FromArgb(255, 255, 0, 0);
-                                    Color colorHandRight = Color.FromArgb(255, 255, 0, 0);
-                                    Color colorHead = Color.FromArgb(255, 255, 0, 0);
-                                    Color colorSpineMid = Color.FromArgb(255, 255, 0, 0);
-                                    Color colorKneeLeft = Color.FromArgb(255, 255, 0, 0);
-                                    Color colorKneeRight = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorHandLeft = Color.FromArgb(255, 35, 63, 147);
+                                    Color colorHandRight = Color.FromArgb(255, 0, 136, 170);
+                                    Color colorHead = Color.FromArgb(255, 193, 84, 151);
+                                    Color colorSpineMid = Color.FromArgb(255, 238, 198, 20);
+                                    Color colorKneeLeft = Color.FromArgb(255, 116, 81, 67);
+                                    Color colorKneeRight = Color.FromArgb(255, 94, 58, 106);
 
 
                                     foreach (var joy in this.dictAllMovementPositions)
