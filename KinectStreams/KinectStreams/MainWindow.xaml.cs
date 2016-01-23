@@ -40,8 +40,8 @@ namespace KinectCoordinateMapping
 
         CameraMode _mode = CameraMode.Color;
         //CameraMode _mode = CameraMode.Depth;
-        
-          
+
+
         DepthFrame depthFrame;
         ColorFrame colorFrame;
 
@@ -53,6 +53,7 @@ namespace KinectCoordinateMapping
         WorkoutTracking benchPress;
         static bool PressSpaced = false;
         static bool escape = false;
+        static bool recordVisualization = true;
 
         static bool jointsChange = false;
         static bool finishedCountdown = false;
@@ -63,6 +64,8 @@ namespace KinectCoordinateMapping
         private const byte VK_TAB = 0x09;
         private const int KEYEVENTF_EXTENDEDKEY = 0x01;
         private const int KEYEVENTF_KEYUP = 0x02;
+
+        private Dictionary<JointType, List<Point3D>> dictAllMovementPositions;
 
         //Speech
         private KinectAudioStream convertStream = null;
@@ -85,24 +88,41 @@ namespace KinectCoordinateMapping
             jointsOfInterest.Clear();
             jointsOfInterest.Add(JointType.HandLeft);
             jointsOfInterest.Add(JointType.HandRight);
+
+            jointsOfInterest.Add(JointType.Head);
+            jointsOfInterest.Add(JointType.KneeLeft);
+            jointsOfInterest.Add(JointType.KneeRight);
+            jointsOfInterest.Add(JointType.SpineMid);
+
+
             record = new RecordMovement(jointsOfInterest, pointsToAnalyze);
             benchPress = new WorkoutTracking(jointsOfInterest, 2);
+
+            this.dictAllMovementPositions = new Dictionary<JointType, List<Point3D>>();
+
+            foreach (var joint in jointsOfInterest)
+            {
+                dictAllMovementPositions.Add(joint, new List<Point3D>());
+            } 
         }
 
-        void SelectMode (object sender, RoutedEventArgs e)
+        void SelectMode(object sender, RoutedEventArgs e)
         {
             if (depthMode.IsChecked == true)
             {
                 _mode = CameraMode.Depth;
+                recordVisualization = true;
             }
             else
             {
                 _mode = CameraMode.Color;
+                recordVisualization = true;
             }
         }
-        void NumberOfJointPoints (object sender, RoutedEventArgs e)
-        { 
-            if(sixJoints.IsChecked == true)
+        void NumberOfJointPoints(object sender, RoutedEventArgs e)
+        {
+
+            if (sixJoints.IsChecked == true)
             {
                 jointsOfInterest.Clear();
                 jointsOfInterest.Add(JointType.HandLeft);
@@ -116,6 +136,14 @@ namespace KinectCoordinateMapping
                 jointsOfInterest.Add(JointType.KneeRight);
                 jointsOfInterest.Add(JointType.SpineMid);
 
+
+                foreach (var joint in jointsOfInterest)
+                {
+                    dictAllMovementPositions.Add(joint, new List<Point3D>());
+                }
+
+                recordVisualization = true;
+
                 jointsChange = true;
                 PressSpaced = false;
                 escape = false;
@@ -129,18 +157,24 @@ namespace KinectCoordinateMapping
                 jointsOfInterest.Add(JointType.HandLeft);
                 jointsOfInterest.Add(JointType.HandRight);
 
+                foreach (var joint in jointsOfInterest)
+                {
+                    dictAllMovementPositions.Add(joint, new List<Point3D>());
+                }
+
                 jointsChange = true;
                 PressSpaced = false;
                 escape = false;
+                recordVisualization = true;
 
                 record = new RecordMovement(jointsOfInterest, pointsToAnalyze);
                 benchPress = new WorkoutTracking(jointsOfInterest, 2);
 
-                
+
             }
         }
 
-       /// <summary>
+        /// <summary>
         /// Gets the metadata for the speech recognizer (acoustic model) most suitable to
         /// process audio from Kinect device.
         /// </summary>
@@ -174,8 +208,8 @@ namespace KinectCoordinateMapping
 
             return null;
         }
-        
-          
+
+
 
         private void ButtonRecordMovement_Click(object sender, RoutedEventArgs e)
         {
@@ -187,7 +221,7 @@ namespace KinectCoordinateMapping
             bw.WorkerReportsProgress = true;
             bw.DoWork += Bw_DoWork;
             bw.RunWorkerAsync();
-          
+
         }
 
         private void UpdateUI(string i, Brush brush, int fontWeight)
@@ -205,7 +239,7 @@ namespace KinectCoordinateMapping
 
             buttonALT_TAB();
 
-                Work1();
+            Work1();
             PressSpaced = true;
             worker.CancelAsync();
         }
@@ -232,19 +266,19 @@ namespace KinectCoordinateMapping
 
                  { */
                 finishedCountdown = true;
-               // canvas.Visibility = Visibility.Visible;
-               // camera.Visibility = Visibility.Visible;
-            
-               /* }
-                else if(_mode == CameraMode.Depth)
-                {*/
-                    //canvasDepth.Visibility = Visibility.Visible;                
-                   // cameraDepth.Visibility = Visibility.Visible;
+                // canvas.Visibility = Visibility.Visible;
+                // camera.Visibility = Visibility.Visible;
+
+                /* }
+                 else if(_mode == CameraMode.Depth)
+                 {*/
+                //canvasDepth.Visibility = Visibility.Visible;                
+                // cameraDepth.Visibility = Visibility.Visible;
                 //  }
-                
-                    testWindow.Visibility = Visibility.Hidden;
-                
-               
+
+                testWindow.Visibility = Visibility.Hidden;
+
+
                 //button.Visibility = Visibility.Hidden;
             });
         }
@@ -268,7 +302,7 @@ namespace KinectCoordinateMapping
 
                 //Depth:_reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Color | FrameSourceTypes.Body);//FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared |
                 _reader = _sensor.OpenMultiSourceFrameReader(FrameSourceTypes.Body | FrameSourceTypes.Depth | FrameSourceTypes.Color);//FrameSourceTypes.Color | FrameSourceTypes.Depth | FrameSourceTypes.Infrared |
-               _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
+                _reader.MultiSourceFrameArrived += Reader_MultiSourceFrameArrived;
 
 
                 // grab the audio stream
@@ -309,7 +343,7 @@ namespace KinectCoordinateMapping
             }
         }
 
-        
+
 
         private void Window_Closed(object sender, EventArgs e)
         {
@@ -396,15 +430,15 @@ namespace KinectCoordinateMapping
             {
                 if (colorFrame != null)
                 {
-                    
+
                     if (_mode == CameraMode.Color)
                     {
                         camera.Source = colorFrame.ToBitmap();
                     }
                 }
-            } 
+            }
 
-            
+
             // Depth
             depthFrame = reference.DepthFrameReference.AcquireFrame();
             {
@@ -417,7 +451,7 @@ namespace KinectCoordinateMapping
                 }
             }
 
-           
+
 
             Ellipse ellipse1 = new Ellipse
             {
@@ -497,7 +531,7 @@ namespace KinectCoordinateMapping
                 Height = 20
             };
 
-           if(finishedCountdown)
+            if (finishedCountdown)
             {
                 if (_mode == CameraMode.Color)
                 {
@@ -516,16 +550,16 @@ namespace KinectCoordinateMapping
                     canvasDepth.Visibility = Visibility.Visible;
                     finishedCountdown = false;
                 }
-              }
-            
+            }
 
-            
+
+
             // Body
             using (var frame = reference.BodyFrameReference.AcquireFrame())
             {
                 if (frame != null)
                 {
-                    
+
                     this.canvas.Children.Clear();
                     this.canvasDepth.Children.Clear();
 
@@ -553,8 +587,8 @@ namespace KinectCoordinateMapping
                         ColorSpacePoint colorPointSpineMid = new ColorSpacePoint();
                         ColorSpacePoint colorPointKneeLeft = new ColorSpacePoint();
                         ColorSpacePoint colorPointKneeRight = new ColorSpacePoint();
-                            
-     
+
+
 
                         if (body.IsTracked)
                         {
@@ -572,25 +606,28 @@ namespace KinectCoordinateMapping
                                 var colorPoint = _sensor.CoordinateMapper.MapCameraPointToColorSpace(cameraSpacePoint);
                                 var depthPoint = _sensor.CoordinateMapper.MapCameraPointToDepthSpace(cameraSpacePoint);
 
-                                if(_mode == CameraMode.Depth)
+                                if (_mode == CameraMode.Depth)
                                 {
-                                    Ellipse ellipseBlue = new Ellipse
-                                    {
-                                        Fill = Brushes.Blue,
-                                        Width = 10,
-                                        Height = 10
-                                    };
-                                    var xPos = depthPoint.X - ellipseBlue.Width / 2;
-                                    var yPos = depthPoint.Y - ellipseBlue.Height / 2;
+                                    /*  Ellipse ellipseBlue = new Ellipse
+                                      {
+                                          Fill = Brushes.Blue,
+                                          Width = 10,
+                                          Height = 10
+                                      };
+                                      var xPos = depthPoint.X - ellipseBlue.Width / 2;
+                                      var yPos = depthPoint.Y - ellipseBlue.Height / 2;
 
-                                    if (xPos >= 0 && xPos < this.canvasDepth.ActualWidth &&
-                                        yPos >= 0 && yPos < this.canvasDepth.ActualHeight)
-                                    {
-                                        Canvas.SetLeft(ellipseBlue, xPos);
-                                        Canvas.SetTop(ellipseBlue, yPos);
+                                      if (xPos >= 0 && xPos < this.canvasDepth.ActualWidth &&
+                                          yPos >= 0 && yPos < this.canvasDepth.ActualHeight)
+                                      {
+                                          Canvas.SetLeft(ellipseBlue, xPos);
+                                          Canvas.SetTop(ellipseBlue, yPos);
 
-                                        canvasDepth.Children.Add(ellipseBlue);
-                                    }
+                                          canvasDepth.Children.Add(ellipseBlue);
+                                      } */
+
+                                    Extensions.DrawSkeleton(canvas, body, _sensor);
+
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
                                     {
@@ -617,24 +654,27 @@ namespace KinectCoordinateMapping
                                     }
                                 }
                                 else
-                                { 
-                                    Ellipse ellipseBlue = new Ellipse
-                                    {
-                                        Fill = Brushes.Blue,
-                                        Width = 10,
-                                        Height = 10
-                                    };
-                                    var xPos = colorPoint.X - ellipseBlue.Width / 2;
-                                    var yPos = colorPoint.Y - ellipseBlue.Height / 2;
+                                {
+                                    /*  Ellipse ellipseBlue = new Ellipse
+                                      {
+                                          Fill = Brushes.Blue,
+                                          Width = 10,
+                                          Height = 10
+                                      };
+                                      var xPos = colorPoint.X - ellipseBlue.Width / 2;
+                                      var yPos = colorPoint.Y - ellipseBlue.Height / 2;
 
-                                    if (xPos >= 0 && xPos < this.canvas.ActualWidth &&
-                                        yPos >= 0 && yPos < this.canvas.ActualHeight)
-                                    {
-                                        Canvas.SetLeft(ellipseBlue, xPos);
-                                        Canvas.SetTop(ellipseBlue, yPos);
+                                      if (xPos >= 0 && xPos < this.canvas.ActualWidth &&
+                                          yPos >= 0 && yPos < this.canvas.ActualHeight)
+                                      {
+                                          Canvas.SetLeft(ellipseBlue, xPos);
+                                          Canvas.SetTop(ellipseBlue, yPos);
 
-                                        canvas.Children.Add(ellipseBlue);
-                                    }
+                                          canvas.Children.Add(ellipseBlue);
+                                      } */
+
+                                    Extensions.DrawSkeleton(canvas, body, _sensor);
+
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
                                     {
@@ -655,9 +695,11 @@ namespace KinectCoordinateMapping
 
                                         else if (joint.JointType == JointType.KneeLeft)
                                             colorPointKneeLeft = colorPoint;
-                                        
 
-                                        currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D(colorPoint.X, colorPoint.Y, 0));
+
+                                        var pointCurJoint = new Point3D(colorPoint.X, colorPoint.Y, 0);
+                                        this.dictAllMovementPositions[joint.JointType].Add(pointCurJoint);
+                                        currentFrameBody.currentFrameBody.Add(joint.JointType, pointCurJoint);
                                     }
                                 }
                             }
@@ -682,8 +724,70 @@ namespace KinectCoordinateMapping
                                 var curFrameResult = benchPress.ValidateCurrentSkeletonFrame(movementVector, currentFrameBody);
                                 var resultWristLeft = curFrameResult.BoneStates[JointType.HandLeft];
                                 var resultWristRight = curFrameResult.BoneStates[JointType.HandRight];
+                                
+                                Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
 
-                                if(sixJoints.IsChecked == true) 
+                                foreach (var joy in this.dictAllMovementPositions)
+                                {
+                                    Brush fill = Brushes.Wheat;
+                                    switch (joy.Key)
+                                    {
+                                        case JointType.HandLeft:
+                                            fill = Brushes.Black;
+                                            break;
+
+                                        case JointType.HandRight:
+                                            fill = Brushes.Pink;
+                                            break;
+
+                                        case JointType.Head:
+                                            fill = Brushes.DeepPink;
+                                            break;
+
+                                        case JointType.SpineMid:
+                                            fill = Brushes.LightCoral;
+                                            break;
+
+                                        case JointType.KneeLeft:
+                                            fill = Brushes.Red;
+                                            break;
+
+                                        case JointType.KneeRight:
+                                            fill = Brushes.DarkBlue;
+                                            break;
+                                    }
+
+                                    if(recordVisualization)
+                                    {
+                                        recordVisualization = false;
+
+                                        foreach (var point in joy.Value)
+                                        {
+                                            Ellipse newEllipse = new Ellipse
+                                            {
+                                                Fill = fill,
+                                                Width = 20,
+                                                Height = 20
+                                            };
+
+
+                                            var xPosMid = point.X - newEllipse.Width / 2;
+                                            var yPosMid = point.Y - newEllipse.Height / 2;
+
+                                            if (xPosMid >= 0 && xPosMid < this.Record.ActualWidth &&
+                                                yPosMid >= 0 && yPosMid < this.Record.ActualHeight)
+                                            {
+                                                Canvas.SetLeft(newEllipse, xPosMid);
+                                                Canvas.SetTop(newEllipse, yPosMid);
+
+                                                Record.Children.Add(newEllipse);
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+
+                                if (sixJoints.IsChecked == true)
                                 {
                                     var resultHead = curFrameResult.BoneStates[JointType.Head];
                                     var resultSpineMid = curFrameResult.BoneStates[JointType.SpineMid];
@@ -1049,7 +1153,7 @@ namespace KinectCoordinateMapping
                                         }
                                     }
                                 }
-                               
+
                                 else
                                 {
                                     if (_mode == CameraMode.Depth)
@@ -1177,10 +1281,10 @@ namespace KinectCoordinateMapping
                                         }
                                     }
                                 }
-                               
 
-                                
 
+
+    
                             }
                             else
                             {
@@ -1192,22 +1296,22 @@ namespace KinectCoordinateMapping
             }
 
             if (depthFrame != null)
-            depthFrame.Dispose();
+                depthFrame.Dispose();
             depthFrame = null;
             if (colorFrame != null)
-            colorFrame.Dispose();
+                colorFrame.Dispose();
             colorFrame = null;
         }
 
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.Key == Key.Space)
+            if (e.Key == Key.Space)
             {
                 this.ButtonRecordMovement_Click(null, null);
             }
 
-            else if(e.Key == Key.Escape)
+            else if (e.Key == Key.Escape)
             {
                 escape = true;
             }

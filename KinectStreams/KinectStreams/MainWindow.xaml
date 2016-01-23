@@ -16,6 +16,7 @@
         <Canvas Grid.Row="0" Name="canvas" Width="1920" Height="1080"/>
         <Image Grid.Row="0" Name="cameraDepth" Width="512" Height="424" />
         <Canvas Grid.Row="0" Name="canvasDepth" Width="512" Height="424"/>
+        <Canvas Grid.Row="0" Name="Record" Width="1920" Height="1080" />
         
         <StackPanel>
             <RadioButton Grid.Row="1" x:Name="twoJoints" GroupName="joints" Content="Two Joint Points" Canvas.Left="260" Click="NumberOfJointPoints" IsChecked="True" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
