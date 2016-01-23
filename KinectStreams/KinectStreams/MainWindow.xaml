@@ -19,8 +19,8 @@
         <Canvas Grid.Row="0" Name="Record" Width="1920" Height="1080" />
         
         <StackPanel>
-            <RadioButton Grid.Row="1" x:Name="twoJoints" GroupName="joints" Content="Two Joint Points" Canvas.Left="260" Click="NumberOfJointPoints" IsChecked="True" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
-            <RadioButton Grid.Row="1" x:Name="sixJoints" GroupName="joints" Content="Six Joint Points" Canvas.Left="230" Click="NumberOfJointPoints" IsChecked="False" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
+            <RadioButton Grid.Row="1" x:Name="twoJoints" GroupName="joints" Content="Two Joint Points" Canvas.Left="260" Click="NumberOfJointPoints" IsChecked="False" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
+            <RadioButton Grid.Row="1" x:Name="sixJoints" GroupName="joints" Content="Six Joint Points" Canvas.Left="230" Click="NumberOfJointPoints" IsChecked="True" FontSize="16" Canvas.Top="20" BorderThickness="0,1,1,1" Width="131"/>
              </StackPanel>
 
         <StackPanel Margin="142,0,-142,0">

@@ -137,10 +137,10 @@ namespace KinectCoordinateMapping
                 jointsOfInterest.Add(JointType.SpineMid);
 
 
-                foreach (var joint in jointsOfInterest)
+          /*      foreach (var joint in jointsOfInterest)
                 {
                     dictAllMovementPositions.Add(joint, new List<Point3D>());
-                }
+                } */
 
                 recordVisualization = true;
 
@@ -157,10 +157,10 @@ namespace KinectCoordinateMapping
                 jointsOfInterest.Add(JointType.HandLeft);
                 jointsOfInterest.Add(JointType.HandRight);
 
-                foreach (var joint in jointsOfInterest)
+          /*      foreach (var joint in jointsOfInterest)
                 {
                     dictAllMovementPositions.Add(joint, new List<Point3D>());
-                }
+                } */
 
                 jointsChange = true;
                 PressSpaced = false;
@@ -727,42 +727,59 @@ namespace KinectCoordinateMapping
                                 
                                 Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
 
-                                foreach (var joy in this.dictAllMovementPositions)
+                                if (recordVisualization)
                                 {
-                                    Brush fill = Brushes.Wheat;
-                                    switch (joy.Key)
+                                    recordVisualization = false;
+
+                                    Color colorHandLeft = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorHandRight = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorHead = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorSpineMid = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorKneeLeft = Color.FromArgb(255, 255, 0, 0);
+                                    Color colorKneeRight = Color.FromArgb(255, 255, 0, 0);
+
+
+                                    foreach (var joy in this.dictAllMovementPositions)
                                     {
-                                        case JointType.HandLeft:
-                                            fill = Brushes.Black;
-                                            break;
+                                        Color fillColor = Color.FromArgb(255, 255, 255, 255);
+                                        switch (joy.Key)
+                                        {
+                                            case JointType.HandLeft:
+                                                fillColor = colorHandLeft;
+                                                break;
 
-                                        case JointType.HandRight:
-                                            fill = Brushes.Pink;
-                                            break;
+                                            case JointType.HandRight:
+                                                fillColor = colorHandRight;
+                                                break;
 
-                                        case JointType.Head:
-                                            fill = Brushes.DeepPink;
-                                            break;
+                                            case JointType.Head:
+                                                fillColor = colorHead;
+                                                break;
 
-                                        case JointType.SpineMid:
-                                            fill = Brushes.LightCoral;
-                                            break;
+                                            case JointType.SpineMid:
+                                                fillColor = colorSpineMid;
+                                                break;
 
-                                        case JointType.KneeLeft:
-                                            fill = Brushes.Red;
-                                            break;
+                                            case JointType.KneeLeft:
+                                                fillColor = colorKneeLeft;
+                                                break;
 
-                                        case JointType.KneeRight:
-                                            fill = Brushes.DarkBlue;
-                                            break;
-                                    }
+                                            case JointType.KneeRight:
+                                                fillColor = colorKneeRight;
+                                                break;
+                                        }
 
-                                    if(recordVisualization)
-                                    {
-                                        recordVisualization = false;
 
                                         foreach (var point in joy.Value)
                                         {
+                                            float opacityFactor = 255 / (joy.Value.Count + 1);
+
+                                            int alpha = (int)opacityFactor * (joy.Value.IndexOf(point) + 1);
+
+                                            fillColor = SetTransparency(alpha, fillColor);
+
+                                            Brush fill = new SolidColorBrush(fillColor);
+
                                             Ellipse newEllipse = new Ellipse
                                             {
                                                 Fill = fill,
@@ -771,20 +788,19 @@ namespace KinectCoordinateMapping
                                             };
 
 
-                                            var xPosMid = point.X - newEllipse.Width / 2;
-                                            var yPosMid = point.Y - newEllipse.Height / 2;
+                                            var xPosRecord = point.X - newEllipse.Width / 2;
+                                            var yPosRecord = point.Y - newEllipse.Height / 2;
 
-                                            if (xPosMid >= 0 && xPosMid < this.Record.ActualWidth &&
-                                                yPosMid >= 0 && yPosMid < this.Record.ActualHeight)
+                                            if (xPosRecord >= 0 && xPosRecord < this.Record.ActualWidth &&
+                                                yPosRecord >= 0 && yPosRecord < this.Record.ActualHeight)
                                             {
-                                                Canvas.SetLeft(newEllipse, xPosMid);
-                                                Canvas.SetTop(newEllipse, yPosMid);
+                                                Canvas.SetLeft(newEllipse, xPosRecord);
+                                                Canvas.SetTop(newEllipse, yPosRecord);
 
                                                 Record.Children.Add(newEllipse);
                                             }
                                         }
                                     }
-                                    
                                 }
 
                                 if (sixJoints.IsChecked == true)
@@ -1282,7 +1298,7 @@ namespace KinectCoordinateMapping
                                     }
                                 }
 
-
+    
 
     
                             }
@@ -1315,6 +1331,11 @@ namespace KinectCoordinateMapping
             {
                 escape = true;
             }
+        }
+
+        static Color SetTransparency(int opaque, Color color)
+        {
+            return Color.FromArgb((byte)opaque, color.R, color.G, color.B);
         }
     }
 
