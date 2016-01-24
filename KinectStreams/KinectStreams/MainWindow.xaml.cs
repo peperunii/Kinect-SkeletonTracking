@@ -626,7 +626,7 @@ namespace KinectCoordinateMapping
                                           canvasDepth.Children.Add(ellipseBlue);
                                       } */
 
-                                    //Extensions.DrawSkeleton(canvas, body, _sensor);
+                                    Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
 
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
@@ -655,7 +655,7 @@ namespace KinectCoordinateMapping
                                 }
                                 else
                                 {
-                                    /*  Ellipse ellipseBlue = new Ellipse
+                                      Ellipse ellipseBlue = new Ellipse
                                       {
                                           Fill = Brushes.Blue,
                                           Width = 10,
@@ -671,9 +671,9 @@ namespace KinectCoordinateMapping
                                           Canvas.SetTop(ellipseBlue, yPos);
 
                                           canvas.Children.Add(ellipseBlue);
-                                      } */
+                                      } 
 
-                                    //Extensions.DrawSkeleton(canvas, body, _sensor);
+                                    //Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
 
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))

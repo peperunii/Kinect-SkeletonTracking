@@ -24,6 +24,15 @@ namespace KinectStreams
 
         List<JointType> jointsOfInterest;
 
+        List<Point3D> CoordinatesListHandLeft; // Smoothing
+        List<Point3D> CoordinatesListHandRight; // Smoothing
+        List<Point3D> CoordinatesListKneeLeft; // Smoothing
+        List<Point3D> CoordinatesListKneeRight; // Smoothing
+        List<Point3D> CoordinatesListHead; // Smoothing
+        List<Point3D> CoordinatesListSpineMid; // Smoothing
+
+        Dictionary<JointType, List<Point3D> > smoothingBuffer; //Smoothing
+
         Dictionary<JointType, int> jointDirs;
         Dictionary<JointType, Point3D>[] lastPositions;
         Dictionary<JointType, List<MovementVector>> jointMovementVectors;
@@ -37,6 +46,15 @@ namespace KinectStreams
             lastPositions = new Dictionary<JointType, Point3D>[numberOfFramesForDetection];
             jointDirs = new Dictionary<JointType, int>();
             jointMovementVectors = new Dictionary<JointType, List<MovementVector>>();
+
+            CoordinatesListHead = new List<Point3D>(); //Smoothing
+            CoordinatesListSpineMid = new List<Point3D>(); //Smoothing
+            CoordinatesListKneeLeft = new List<Point3D>(); //Smoothing
+            CoordinatesListKneeRight = new List<Point3D>(); //Smoothing
+            CoordinatesListHandLeft = new List<Point3D>(); //Smoothing
+            CoordinatesListHandRight = new List<Point3D>(); //Smoothing
+
+            smoothingBuffer = new Dictionary<JointType, List<Point3D>>(); //Smoothing
 
             foreach (var joint in jointsOfInterest)
             {
@@ -69,7 +87,41 @@ namespace KinectStreams
                 if (jointsOfInterest.Contains(joint.Key))
                 {
                     lastPositions[0][joint.Key] = joint.Value;
+
+                    switch (joint.Key)
+                    {
+                        case JointType.HandLeft:
+                            CoordinatesListHandLeft.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListHandLeft;
+                            break;
+
+                        case JointType.HandRight:
+                            CoordinatesListHandRight.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListHandRight;
+                            break;
+
+                        case JointType.KneeLeft:
+                            CoordinatesListKneeLeft.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListKneeLeft;
+                            break;
+
+                        case JointType.KneeRight:
+                            CoordinatesListKneeRight.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListKneeRight;
+                            break;
+
+                        case JointType.Head:
+                            CoordinatesListHead.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListHead;
+                            break;
+
+                        case JointType.SpineMid:
+                            CoordinatesListSpineMid.Add(joint.Value);
+                            smoothingBuffer[joint.Key] = CoordinatesListSpineMid;
+                            break;
+                    }
                 }
+                
             }
 
             var jointDirChange = IsDirChanged();
@@ -91,6 +143,9 @@ namespace KinectStreams
                     int currentNumberOfVectors = jointMovementVectors[joint].Count;
                     var lastCoordinates = jointMovementVectors[joint][currentNumberOfVectors - 1]._endPoint;
 
+
+                    lastCoordinates = SmoothingLine(smoothingBuffer, lastCoordinates, joint);
+
                     var newVector = new MovementVector(new Point3D(lastCoordinates.X, lastCoordinates.Y, lastCoordinates.Z), lastPositions[0][joint]);
 
 
@@ -99,7 +154,7 @@ namespace KinectStreams
                     {
                         jointMovementVectors[joint].Add(newVector);
                         
-                  }
+                    }
                     else
                     {
                         var lastPoint = jointMovementVectors[joint][currentNumberOfVectors - 1];
@@ -108,11 +163,56 @@ namespace KinectStreams
                          var angle = Math3DHelper.AngleBetweenTwoPointsInDegrees(lastPoint._startPoint, lastPositions[0][joint]);
                         //Batev: var angle = Math3DHelper.AngleBetweenTwoPointsInDegrees(lastPoint, lastPositions[0][joint]);
                         jointMovementVectors[joint][currentNumberOfVectors - 1]._angle = angle;
-                         jointMovementVectors[joint][currentNumberOfVectors - 1]._distance = Math3DHelper.DistanceBetwenTwoPoints(lastPoint._startPoint, lastPositions[0][joint]);
+                        jointMovementVectors[joint][currentNumberOfVectors - 1]._distance = Math3DHelper.DistanceBetwenTwoPoints(lastPoint._startPoint, lastPositions[0][joint]);
                         //Batev:  jointMovementVectors[joint][currentNumberOfVectors - 1]._distance = Math3DHelper.DistanceBetwenTwoPoints(lastPoint, lastPositions[0][joint]);
                     }
                 }
             }
+        }
+
+
+        // Linear Regression Function
+        // Returns the new generated y' values
+        public Point3D SmoothingLine(Dictionary<JointType, List<Point3D>> smoothingBuffer, Point3D lastCoordinates, JointType joint)
+        {
+            double meanX = 0;
+            double meanY = 0;
+            double sumXY = 0;
+            double sqX = 0;
+            double sumSqX = 0;
+            double sqMeanX = 0;
+            double meanXY = 0;
+            double sumX = 0;
+            double sumY = 0;
+            double alfa = 0;
+            double betha = 0;
+
+
+            //for (var counter = 0; counter < smoothingBuffer[joint].Count; counter++)
+           // {
+            foreach (var listItem in  smoothingBuffer[joint])
+            {
+                sumX += listItem.X;
+                sumY += listItem.Y;
+                sumXY += listItem.X * listItem.Y;
+                sumSqX += listItem.X * listItem.X;
+
+            }
+
+
+            meanX = sumX / smoothingBuffer[joint].Count;
+            meanY = sumY / smoothingBuffer[joint].Count;
+            meanXY = sumXY / smoothingBuffer[joint].Count;
+            sqMeanX = meanX * meanX;
+
+            betha = (sumXY - (smoothingBuffer[joint].Count * meanXY)) / (sumSqX - (smoothingBuffer[joint].Count * sqMeanX));
+            alfa = meanY - (betha * meanX);
+
+            // }
+
+            lastCoordinates.Y = alfa + (betha * lastCoordinates.X); 
+
+            return lastCoordinates;     
         }
 
         private bool checkNewVector(MovementVector newVector, JointType joint)
@@ -178,6 +278,7 @@ namespace KinectStreams
                 for (int i = numberOfFramesForMovementDetection - 1; i > 0; i--)
                 {
                     lastPositions[i][joint] = lastPositions[i - 1][joint];
+                    
                 }
             }
         }
