@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Input;
+using KinectCoordinateMapping;
 
 namespace KinectStreams
 {
@@ -86,6 +87,7 @@ namespace KinectStreams
             {
                 if (jointsOfInterest.Contains(joint.Key))
                 {
+                    
                     lastPositions[0][joint.Key] = joint.Value;
 
                     switch (joint.Key)

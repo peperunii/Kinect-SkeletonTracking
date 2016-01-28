@@ -92,7 +92,7 @@ namespace KinectCoordinateMapping
             jointsOfInterest.Add(JointType.Head);
             jointsOfInterest.Add(JointType.KneeLeft);
             jointsOfInterest.Add(JointType.KneeRight);
-            jointsOfInterest.Add(JointType.SpineMid);
+            jointsOfInterest.Add(JointType.SpineMid); 
 
 
             record = new RecordMovement(jointsOfInterest, pointsToAnalyze);
@@ -103,7 +103,7 @@ namespace KinectCoordinateMapping
             foreach (var joint in jointsOfInterest)
             {
                 dictAllMovementPositions.Add(joint, new List<Point3D>());
-            } 
+            }  
         }
 
         void SelectMode(object sender, RoutedEventArgs e)
@@ -137,10 +137,10 @@ namespace KinectCoordinateMapping
                 jointsOfInterest.Add(JointType.SpineMid);
 
 
-          /*      foreach (var joint in jointsOfInterest)
+            /*    foreach (var joint in jointsOfInterest)
                 {
                     dictAllMovementPositions.Add(joint, new List<Point3D>());
-                } */
+                }  */
 
                 recordVisualization = true;
 
@@ -160,7 +160,7 @@ namespace KinectCoordinateMapping
           /*      foreach (var joint in jointsOfInterest)
                 {
                     dictAllMovementPositions.Add(joint, new List<Point3D>());
-                } */
+                }  */
 
                 jointsChange = true;
                 PressSpaced = false;
@@ -714,6 +714,8 @@ namespace KinectCoordinateMapping
                                     movementVector.Clear();
                                 }
 
+
+
                                 jointsChange = false;
                                 movementVector = record.GetMovementVectors(currentFrameBody);
 
@@ -730,6 +732,7 @@ namespace KinectCoordinateMapping
                                 if (recordVisualization)
                                 {
                                     recordVisualization = false;
+
 
                                     Color colorHandLeft = Color.FromArgb(255, 35, 63, 147);
                                     Color colorHandRight = Color.FromArgb(255, 0, 136, 170);
@@ -772,8 +775,13 @@ namespace KinectCoordinateMapping
 
                                         foreach (var point in joy.Value)
                                         {
-                                            float opacityFactor = 255 / (joy.Value.Count + 1);
 
+
+                                           float opacityFactor =  joy.Value.Count / 255  ;
+                                            if (opacityFactor == 0.0f)
+                                                opacityFactor = 1.0f;
+
+                                            
                                             int alpha = (int)opacityFactor * (joy.Value.IndexOf(point) + 1);
 
                                             fillColor = SetTransparency(alpha, fillColor);
