@@ -48,7 +48,11 @@ namespace KinectCoordinateMapping
         List<JointType> jointsOfInterest = new List<JointType>();
         Dictionary<JointType, List<MovementVector>> movementVector = null;
 
+        Dictionary<JointType, float> meanDistanceToSensor = new Dictionary<JointType, float>();
+        Dictionary<JointType, float> distanceSum = new Dictionary<JointType, float>();
         int pointsToAnalyze = 9;
+
+        int curNumOfFrames = 0;
         RecordMovement record;// = new RecordMovement(pointsOfInterest, pointsToAnalyze);
         WorkoutTracking benchPress;
         static bool PressSpaced = false;
@@ -99,10 +103,16 @@ namespace KinectCoordinateMapping
             benchPress = new WorkoutTracking(jointsOfInterest, 2);
 
             this.dictAllMovementPositions = new Dictionary<JointType, List<Point3D>>();
+            foreach(var joint in jointsOfInterest)
+            {
+                distanceSum[joint] = 0.0f;
+            }
+            
 
             foreach (var joint in jointsOfInterest)
             {
                 dictAllMovementPositions.Add(joint, new List<Point3D>());
+                
             }  
         }
 
@@ -597,14 +607,24 @@ namespace KinectCoordinateMapping
 
                             var lines = new List<string>();
 
+                           
+
                             foreach (var joint in body.Joints.Values)
                             {
                                 cameraSpacePoint.X = joint.Position.X;//(float)currentFrameBody.currentFrameBody[joint.JointType].X;
                                 cameraSpacePoint.Y = joint.Position.Y; //(float)currentFrameBody.currentFrameBody[joint.JointType].Y;
                                 cameraSpacePoint.Z = joint.Position.Z; //(float)currentFrameBody.currentFrameBody[joint.JointType].Z;
 
+                                if (PressSpaced && !escape && jointsOfInterest.Contains(joint.JointType))
+                                {
+                                    curNumOfFrames++;
+                                    distanceSum[joint.JointType] += cameraSpacePoint.Z;
+                                    meanDistanceToSensor[joint.JointType] = distanceSum[joint.JointType] / ( (curNumOfFrames/6) + 1);
+                                }
+
                                 var colorPoint = _sensor.CoordinateMapper.MapCameraPointToColorSpace(cameraSpacePoint);
                                 var depthPoint = _sensor.CoordinateMapper.MapCameraPointToDepthSpace(cameraSpacePoint);
+
 
                                 if (_mode == CameraMode.Depth)
                                 {
