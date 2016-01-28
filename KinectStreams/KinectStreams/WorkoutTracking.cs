@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using KinectCoordinateMapping;
 
 
 namespace Fitnematic.Core.BenchPressTest
@@ -116,7 +117,7 @@ namespace Fitnematic.Core.BenchPressTest
             }
         }
 
-        public SkeletonFrameValidationData ValidateCurrentSkeletonFrame(Dictionary<JointType, List<MovementVector>> serverWorkoutVectors, BodyStructure body)
+        public SkeletonFrameValidationData ValidateCurrentSkeletonFrame(Dictionary<JointType, List<MovementVector>> serverWorkoutVectors, BodyStructure body, Dictionary<JointType, float> distanceScale)
         {
             var result = new SkeletonFrameValidationData();
 
@@ -163,7 +164,7 @@ namespace Fitnematic.Core.BenchPressTest
             }
             var jointDirChange = IsDirChanged();
 
-            UpdateMovementVectors(jointDirChange);
+            UpdateMovementVectors(jointDirChange, distanceScale);
 
             result.BoneStates = new Dictionary<JointType, SkeletonBoneState>();
 
@@ -216,7 +217,7 @@ namespace Fitnematic.Core.BenchPressTest
             }
         }
 
-        private void UpdateMovementVectors(Dictionary<JointType, bool> jointDirChange)
+        private void UpdateMovementVectors(Dictionary<JointType, bool> jointDirChange, Dictionary<JointType, float> distanceScale)
         {
             foreach (var change in jointDirChange)
             {
@@ -235,6 +236,7 @@ namespace Fitnematic.Core.BenchPressTest
                         bool CheckIfNewVectorIsNeeded = checkNewVector(newVector, joint);
                         if (CheckIfNewVectorIsNeeded == true)
                         {
+                            newVector._distance = newVector._distance * distanceScale[joint];
                             jointMovementVectors[joint] = newVector;
                         }
                         else

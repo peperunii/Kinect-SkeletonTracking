@@ -50,6 +50,8 @@ namespace KinectCoordinateMapping
 
         Dictionary<JointType, float> meanDistanceToSensor = new Dictionary<JointType, float>();
         Dictionary<JointType, float> distanceSum = new Dictionary<JointType, float>();
+        public Dictionary<JointType, float> distanceScale = new Dictionary<JointType, float>();
+
         int pointsToAnalyze = 9;
 
         int curNumOfFrames = 0;
@@ -103,9 +105,15 @@ namespace KinectCoordinateMapping
             benchPress = new WorkoutTracking(jointsOfInterest, 2);
 
             this.dictAllMovementPositions = new Dictionary<JointType, List<Point3D>>();
+
             foreach(var joint in jointsOfInterest)
             {
                 distanceSum[joint] = 0.0f;
+            }
+
+            foreach (var joint in jointsOfInterest)
+            {
+                distanceScale[joint] = 0.0f;
             }
             
 
@@ -431,7 +439,7 @@ namespace KinectCoordinateMapping
         }
 
 
-        void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
+        public void Reader_MultiSourceFrameArrived(object sender, MultiSourceFrameArrivedEventArgs e)
         {
             var reference = e.FrameReference.AcquireFrame();
 
@@ -621,6 +629,10 @@ namespace KinectCoordinateMapping
                                     distanceSum[joint.JointType] += cameraSpacePoint.Z;
                                     meanDistanceToSensor[joint.JointType] = distanceSum[joint.JointType] / ( (curNumOfFrames/6) + 1);
                                 }
+                                else if(escape && movementVector != null && jointsOfInterest.Contains(joint.JointType))
+                                {
+                                    distanceScale[joint.JointType] = cameraSpacePoint.Z / meanDistanceToSensor[joint.JointType];
+                                }
 
                                 var colorPoint = _sensor.CoordinateMapper.MapCameraPointToColorSpace(cameraSpacePoint);
                                 var depthPoint = _sensor.CoordinateMapper.MapCameraPointToDepthSpace(cameraSpacePoint);
@@ -693,7 +705,7 @@ namespace KinectCoordinateMapping
                                           canvas.Children.Add(ellipseBlue);
                                       } 
 
-                                    //Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
+                                    Extensions.DrawSkeleton(canvas, body, jointsOfInterest, _sensor);
 
                                     //currentFrameBody.currentFrameBody.Add(joint.JointType, new Point3D());
                                     if (jointsOfInterest.Contains(joint.JointType))
@@ -743,7 +755,7 @@ namespace KinectCoordinateMapping
                             //else if(movementVector != null)
                             else if (escape && movementVector != null)
                             {
-                                var curFrameResult = benchPress.ValidateCurrentSkeletonFrame(movementVector, currentFrameBody);
+                                var curFrameResult = benchPress.ValidateCurrentSkeletonFrame(movementVector, currentFrameBody, distanceScale);
                                 var resultWristLeft = curFrameResult.BoneStates[JointType.HandLeft];
                                 var resultWristRight = curFrameResult.BoneStates[JointType.HandRight];
                                 
